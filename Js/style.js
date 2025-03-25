@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
         backSpeed: 60,
         loop: true
     });
-    
+
 });
 
 
@@ -100,14 +100,12 @@ resumeDownlod.addEventListener("click", () => {
 
 // Send Message
 const sendMsg = document.querySelector("#sendmsg");
-// const contactForm = document.querySelector(".contact-form");
-// const formGroup = document.querySelector(".form-group");
 const formControl = document.querySelector(".form-control");
 
-
- 
-
-
 sendMsg.addEventListener("click", () => {
-    alert("Messge Send Successfully");
+    if (formControl.value.trim() !== "") {
+        alert("Message Sent Successfully");
+    } else {
+        alert("Please enter a message before sending.");
+    }
 });

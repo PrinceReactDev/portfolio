@@ -34,6 +34,15 @@
     .about .about-content .timeline .timeline-text {
         font-size: 14px;
     }
+
+    .about .about-content .personal-info .row{
+        display: block;
+    }
+
+    .contact .contact-info-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
 }
 
 @media (max-width:425px) {
@@ -41,6 +50,19 @@
     .contact .contact-info-item {
         flex: 0 0 100%;
         max-width: 100%;
+    }
+}
+
+@media (min-width:480px){
+    .about .about-content .personal-info .row{
+        display: flex;
+    }
+}
+
+@media (min-width:500px){
+    .contact .contact-info-item {
+        flex: 0 0 50%;
+        max-width: 50%;
     }
 }
 
@@ -70,8 +92,7 @@
     }
 
     .services .service-item,
-    .portfolio .portfolio-item,
-    .contact .contact-info-item {
+    .portfolio .portfolio-itemz{
         flex: 0 0 50%;
         max-width: 50%;
     }
@@ -152,5 +173,10 @@
 
     .about .about-content .timeline .timeline-text {
         font-size: 16px;
+    }
+
+    .contact .contact-info-item {
+        flex: 0 0 25%;
+        max-width: 25%;
     }
 }
