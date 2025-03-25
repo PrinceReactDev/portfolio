@@ -1,0 +1,156 @@
+@media (min-width:320px) {
+    h3.hello {
+        font-size: 22px;
+    }
+
+    h3.my-profession {
+        font-size: 20px;
+    }
+
+    .home-info p {
+        font-size: 14px;
+    }
+
+    .section-title h2 {
+        font-size: 30px;
+    }
+
+    .about .about-content .about-text h3 {
+        font-size: 20px;
+    }
+
+    .about .about-content .about-text p {
+        font-size: 14px;
+    }
+
+    .about .about-content .personal-info .info-item p {
+        font-size: 14px;
+    }
+
+    .about .about-content .timeline .timeline-title {
+        font-size: 16px;
+    }
+
+    .about .about-content .timeline .timeline-text {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:425px) {
+
+    .contact .contact-info-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+
+@media (max-width:767px) {
+
+    .contact .contact-form .col-6,
+    .portfolio .portfolio-item,
+    .services .service-item,
+    .about .about-content .education,
+    .about .about-content .experience,
+    .about .about-content .personal-info,
+    .about .about-content .skills {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width:991px) {
+    .home .home-info {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .home .home-img {
+        display: none;
+    }
+
+    .services .service-item,
+    .portfolio .portfolio-item,
+    .contact .contact-info-item {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .padd-15 {
+        padding-left: 20px;
+        padding-right: 0;
+    }
+}
+
+@media (max-width:1199px) {
+
+    section .container {
+        padding-top: 70px;
+    }
+
+    .aside {
+        left: -270px;
+    }
+
+    .aside.open {
+        left: 0;
+    }
+
+    .aside .nav-toggler {
+        display: flex;
+        left: 30px;
+    }
+
+    .aside .nav-toggler.open {
+        left: 300px;
+    }
+
+    section {
+        left: 0;
+    }
+
+    .about .about-content .personal-info .info-item p span {
+        display: block;
+        margin-left: 0;
+    }
+
+}
+
+@media (min-width: 1240px) {
+
+    h3.hello {
+        font-size: 28px;
+    }
+
+    h3.my-profession {
+        font-size: 30px;
+    }
+
+    .home-info p {
+        font-size: 20px;
+    }
+
+    .section-title h2 {
+        font-size: 40px;
+    }
+
+    .about .about-content .about-text h3 {
+        font-size: 24px;
+    }
+
+    .about .about-content .about-text p {
+        font-size: 16px;
+    }
+
+    .about .about-content .personal-info .info-item p {
+        font-size: 16px;
+    }
+
+    .about .about-content .timeline .timeline-title {
+        font-size: 18px;
+    }
+
+    .about .about-content .timeline .timeline-text {
+        font-size: 16px;
+    }
+}
