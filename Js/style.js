@@ -93,7 +93,21 @@ function asideSectionTogglerBtn() {
 
 // Download Resume
 const resumeDownlod = document.querySelector("#resume");
-
 resumeDownlod.addEventListener("click", () => {
     alert("Downlod Resume");
+});
+
+
+// Send Message
+const sendMsg = document.querySelector("#sendmsg");
+// const contactForm = document.querySelector(".contact-form");
+// const formGroup = document.querySelector(".form-group");
+const formControl = document.querySelector(".form-control");
+
+
+ 
+
+
+sendMsg.addEventListener("click", () => {
+    alert("Messge Send Successfully");
 });
