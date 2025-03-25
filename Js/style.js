@@ -89,3 +89,11 @@ function asideSectionTogglerBtn() {
         allSection[i].classList.toggle("open");
     }
 };
+
+
+// Download Resume
+const resumeDownlod = document.querySelector("#resume");
+
+resumeDownlod.addEventListener("click", () => {
+    alert("Downlod Resume");
+});
