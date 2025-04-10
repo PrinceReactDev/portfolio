@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="//www.vitaliberata.com/cdn/shop/files/favicon-vita.png?v=1722366530&amp;width=32" type="image/png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- jquery js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- slick js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    
+    <!-- bootstrap link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.rtl.min.css"
+        integrity="sha512-VNBisELNHh6+nfDjsFXDA6WgXEZm8cfTEcMtfOZdx0XTRoRbr/6Eqb2BjqxF4sNFzdvGIt+WqxKgn0DSfh2kcA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- fonts link  -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Clicker+Script&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Miniver&family=Poppins:wght@200;300;400;600;700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- font font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- Bootstrap JS and Popper (for dropdowns) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+
+    <!-- title  -->
+    <title>Vita</title>
+
+    <!-- css link  -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+
+</head>
+
+<body>
+
+    <!-- HEADER  -->
+    <header class="d-flex justify-content-center align-items-center">
+        <div>
+            <span>FREE SHIPPING FOR ORDERS OVER £35</span>
+        </div>
+    </header>
+
+
+    <!-- NAVBAR  -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffCanvas"
+                aria-controls="offcanvasExampleLabel" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+
+            <div class="nav-item nav-logo d-block d-lg-none">
+                <a href="./index.html"><img src="img/Vita-Logo" alt="#"></a>
+            </div>
+            <div class="collapse navbar-collapse justify-content-lg-between" id="navbarSupportedContent">
+
+                <ul class="navbar-nav  d-flex align-items-center justify-content-center">
+
+                    <div class="megamenu">
+
+                        <button class="dropbtn">PRODUCTS
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+
+                        <div class="megamenu-content">
+
+                            <div class="row w-100">
+                                <div class="col-6 col-sm-3">
+                                    <h3>Categories</h3>
+                                    <a href="#">Everyday Blur Drops</a>
+                                    <a href="#">Body Makeup</a>
+                                    <a href="#">Tinted Lasting Tan</a>
+                                    <a href="#">Gradual Untinted</a>
+                                    <a href="#">Tanning Tools & Accessories</a>
+                                    <a href="./shop.html">Shop All</a>
+                                </div>
+                                <div class="col-6 col-sm-2">
+                                    <h3>Collections</h3>
+                                    <a href="#">The Lotions</a>
+                                    <a href="#">The Mousses</a>
+                                    <a href="#">The Blurs</a>
+                                    <a href="#">The Skincare</a>
+                                </div>
+                                <div class="col-6 col-sm-2">
+                                    <h3>The Blur Collection</h3>
+                                    <a href="#">Body Blur</a>
+                                    <a href="#">Beauty Blur</a>
+                                </div>
+                                <div class="col-6 col-sm-2">
+                                    <h3>Areas</h3>
+                                    <a href="#">Face Tanning</a>
+                                    <a href="#">Body Tanning</a>
+                                </div>
+                                <div class="col-6 col-sm-2">
+                                    <h3>Savers</h3>
+                                    <a href="#">End Of Line</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./faqs.html">FAQS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./use.html">HOW TO USE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./news.html">NEWS</a>
+                    </li>
+                    <div class="nav-item nav-logo">
+                        <a href="./index.html"><img src="img/Vita-Logo" alt="#"></a>
+                    </div>
+
+                </ul>
+
+
+                <form class="d-flex justify-content-center align-items-center ms-5 ms-lg-0" role="search">
+
+                    <div class="container">
+                        <div class="dropdown">
+                            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <img id="selected-flag" src="https://flagcdn.com/w40/be.png" class="flag-img"
+                                    alt="Selected Flag">
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('at', 'Austria')"><img
+                                            src="https://flagcdn.com/w40/at.png"> Austria <span>(EUR €)</span></a></li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('be', 'Belgium')"><img
+                                            src="https://flagcdn.com/w40/be.png"> Belgium <span>(EUR €)</span></a></li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('bg', 'Bulgaria')"><img
+                                            src="https://flagcdn.com/w40/bg.png"> Bulgaria <span>(BGN лв.)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('hr', 'Croatia')"><img
+                                            src="https://flagcdn.com/w40/hr.png"> Croatia <span>(EUR €)</span></a></li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('cy', 'Cyprus')"><img
+                                            src="https://flagcdn.com/w40/cy.png"> Cyprus <span>(EUR €)</span></a></li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('cz', 'Czechia')"><img
+                                            src="https://flagcdn.com/w40/cz.png"> Czechia <span>(CZK Kč)</span></a></li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('dk', 'Denmark')"><img
+                                            src="https://flagcdn.com/w40/dk.png"> Denmark <span>(DKK kr.)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('ee', 'Estonia')"><img
+                                            src="https://flagcdn.com/w40/ee.png"> Estonia <span>(EUR €)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('fi', 'Finland')"><img
+                                            src="https://flagcdn.com/w40/fi.png">Finland <span>(EUR €)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('fr', 'France')"><img
+                                            src="https://flagcdn.com/w40/fr.png">France <span>(EUR €)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('de', 'Germany')"><img
+                                            src="https://flagcdn.com/w40/de.png">Germany <span>(EUR €)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('gr', 'Greece')"><img
+                                            src="https://flagcdn.com/w40/gr.png">Greece <span>(EUR €)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('hu', 'Hungary')"><img
+                                            src="https://flagcdn.com/w40/hu.png">Hungary<span>(HUF FT)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('ie', 'Ireland')"><img
+                                            src="https://flagcdn.com/w40/ie.png">Ireland<span>(EUR €)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('it', 'Italy')"><img
+                                            src="https://flagcdn.com/w40/it.png">Italy<span>(EUR €)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('lv', 'Latvia')"><img
+                                            src="https://flagcdn.com/w40/lv.png">Latvia<span>(EUR €)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('lt', 'Lithuania')"><img
+                                            src="https://flagcdn.com/w40/lt.png">Lithuania<span>(EUR €)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('lu', 'Luxembourg')"><img
+                                            src="https://flagcdn.com/w40/lu.png">Luxembourg<span>(EUR €)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('mt', 'Malta')"><img
+                                            src="https://flagcdn.com/w40/mt.png">Malta<span>(EUR €)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('nl', 'Netherlands')"><img
+                                            src="https://flagcdn.com/w40/nl.png">Netherlands<span>(EUR €)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('pl', 'Poland')"><img
+                                            src="https://flagcdn.com/w40/pl.png">Poland<span>(PLN Zt)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('pt', 'Portugal')"><img
+                                            src="https://flagcdn.com/w40/pt.png">Portugal<span>(EUR €)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('ro', 'Romania')"><img
+                                            src="https://flagcdn.com/w40/ro.png">Romania<span>(RON Lei)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('sk', 'Slovakia')"><img
+                                            src="https://flagcdn.com/w40/sk.png">Slovakia<span>(EUR €)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('si', 'Slovenia')"><img
+                                            src="https://flagcdn.com/w40/si.png">Slovenia<span>(EUR €)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('es', 'Spain')"><img
+                                            src="https://flagcdn.com/w40/es.png">Spain<span>(EUR €)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('se', 'Sweden')"><img
+                                            src="https://flagcdn.com/w40/se.png">Sweden<span>(SEK Kr)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('gb', 'United Kingdom')"><img
+                                            src="https://flagcdn.com/w40/gb.png">United Kingdom<span>(GBP £)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('us', 'United States')"><img
+                                            src="https://flagcdn.com/w40/us.png">United States<span>(USD $)</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <a href="#" class="ms-4">SEARCH</a>
+
+
+                </form>
+
+
+            </div>
+            <a href="#" class="text-black"><i class="fa-solid fa-bag-shopping"></i></a>
+
+        </div>
+    </nav>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffCanvas" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Search</h5>
+            <button type="button" class="btn-close ms-0 me-auto" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div>
+
+                <ul class="navbar-nav">
+
+                    <li class="nav-item offcanvas-megamenu">
+                        <div class="d-flex align-items-center justify-content-between">
+                            PRODUCTS
+                            <i class="fa fa-caret-down"></i>
+                        </div>
+                        <div class="off-canvas-megamenu-content">
+
+                            <div class="row w-100">
+                                <div class="col-12">
+                                    <h3>Categories</h3>
+                                    <a href="#">Everyday Blur Drops</a>
+                                    <a href="#">Body Makeup</a>
+                                    <a href="#">Tinted Lasting Tan</a>
+                                    <a href="#">Gradual Untinted</a>
+                                    <a href="#">Tanning Tools & Accessories</a>
+                                    <a href="./shop.html">Shop All</a>
+                                </div>
+                                <div class="col-12">
+                                    <h3>Collections</h3>
+                                    <a href="#">The Lotions</a>
+                                    <a href="#">The Mousses</a>
+                                    <a href="#">The Blurs</a>
+                                    <a href="#">The Skincare</a>
+                                </div>
+                                <div class="col-12">
+                                    <h3>The Blur Collection</h3>
+                                    <a href="#">Body Blur</a>
+                                    <a href="#">Beauty Blur</a>
+                                </div>
+                                <div class="col-12">
+                                    <h3>Areas</h3>
+                                    <a href="#">Face Tanning</a>
+                                    <a href="#">Body Tanning</a>
+                                </div>
+                                <div class="col-12">
+                                    <h3>Savers</h3>
+                                    <a href="#">End Of Line</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./faqs.html">FAQS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./use.html">HOW TO USE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./news.html">NEWS</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <img id="selected-flag" src="https://flagcdn.com/w40/be.png" class="flag-img"
+                                    alt="Selected Flag">
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('at', 'Austria')"><img
+                                            src="https://flagcdn.com/w40/at.png"> Austria <span>(EUR €)</span></a></li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('be', 'Belgium')"><img
+                                            src="https://flagcdn.com/w40/be.png"> Belgium <span>(EUR €)</span></a></li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('bg', 'Bulgaria')"><img
+                                            src="https://flagcdn.com/w40/bg.png"> Bulgaria <span>(BGN лв.)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('hr', 'Croatia')"><img
+                                            src="https://flagcdn.com/w40/hr.png"> Croatia <span>(EUR €)</span></a></li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('cy', 'Cyprus')"><img
+                                            src="https://flagcdn.com/w40/cy.png"> Cyprus <span>(EUR €)</span></a></li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('cz', 'Czechia')"><img
+                                            src="https://flagcdn.com/w40/cz.png"> Czechia <span>(CZK Kč)</span></a></li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('dk', 'Denmark')"><img
+                                            src="https://flagcdn.com/w40/dk.png"> Denmark <span>(DKK kr.)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('ee', 'Estonia')"><img
+                                            src="https://flagcdn.com/w40/ee.png"> Estonia <span>(EUR €)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('fi', 'Finland')"><img
+                                            src="https://flagcdn.com/w40/fi.png">Finland <span>(EUR €)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('fr', 'France')"><img
+                                            src="https://flagcdn.com/w40/fr.png">France <span>(EUR €)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('de', 'Germany')"><img
+                                            src="https://flagcdn.com/w40/de.png">Germany <span>(EUR €)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('gr', 'Greece')"><img
+                                            src="https://flagcdn.com/w40/gr.png">Greece <span>(EUR €)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('hu', 'Hungary')"><img
+                                            src="https://flagcdn.com/w40/hu.png">Hungary<span>(HUF FT)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('ie', 'Ireland')"><img
+                                            src="https://flagcdn.com/w40/ie.png">Ireland<span>(EUR €)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('it', 'Italy')"><img
+                                            src="https://flagcdn.com/w40/it.png">Italy<span>(EUR €)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('lv', 'Latvia')"><img
+                                            src="https://flagcdn.com/w40/lv.png">Latvia<span>(EUR €)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('lt', 'Lithuania')"><img
+                                            src="https://flagcdn.com/w40/lt.png">Lithuania<span>(EUR €)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('lu', 'Luxembourg')"><img
+                                            src="https://flagcdn.com/w40/lu.png">Luxembourg<span>(EUR €)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('mt', 'Malta')"><img
+                                            src="https://flagcdn.com/w40/mt.png">Malta<span>(EUR €)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('nl', 'Netherlands')"><img
+                                            src="https://flagcdn.com/w40/nl.png">Netherlands<span>(EUR €)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('pl', 'Poland')"><img
+                                            src="https://flagcdn.com/w40/pl.png">Poland<span>(PLN Zt)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('pt', 'Portugal')"><img
+                                            src="https://flagcdn.com/w40/pt.png">Portugal<span>(EUR €)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('ro', 'Romania')"><img
+                                            src="https://flagcdn.com/w40/ro.png">Romania<span>(RON Lei)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('sk', 'Slovakia')"><img
+                                            src="https://flagcdn.com/w40/sk.png">Slovakia<span>(EUR €)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('si', 'Slovenia')"><img
+                                            src="https://flagcdn.com/w40/si.png">Slovenia<span>(EUR €)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('es', 'Spain')"><img
+                                            src="https://flagcdn.com/w40/es.png">Spain<span>(EUR €)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('se', 'Sweden')"><img
+                                            src="https://flagcdn.com/w40/se.png">Sweden<span>(SEK Kr)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('gb', 'United Kingdom')"><img
+                                            src="https://flagcdn.com/w40/gb.png">United Kingdom<span>(GBP £)</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeFlag('us', 'United States')"><img
+                                            src="https://flagcdn.com/w40/us.png">United States<span>(USD $)</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="container">
+            <div class="row vh-100">
+                <!-- Left Side: Text Content -->
+                <div
+                    class="col-md-6 d-md-flex flex-md-column justify-content-md-center align-items-md-center text-center mt-5 mt-md-0">
+                    <div class="hero-text">
+                        <p>BRONZE BLUR NOURISH <br><span>CONFIDENCE APPLIED</span></p>
+                        <button class="hero-btn">SHOP NOW</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- OUR NEW COLLECTION -->
+    <section class="collection">
+        <div class="container d-flex flex-column justify-content-center align-items-center">
+
+            <h3 class="sub-heading mb-5">OUR NEW COLLECTION</h3>
+
+            <div class="position-relative mb-5  w-75">
+
+                <button class="pre-arrow"><i class="fa-solid fa-arrow-left"></i></button>
+                <button class="next-arrow"><i class="fa-solid fa-arrow-right"></i></button>
+
+                <div class="multiple-items">
+
+                    <!-- ========== box 1 ======== -->
+                    <div class="single-item">
+
+                        <div class="image-container">
+                            <img src="img/img 1.webp" alt="" class="first-img">
+                            <img src="img/hover-img1.webp" alt="" class="second-img">
+                        </div>
+
+                        <p>ORIGINAL BODY BLUR, MEDIUM</p>
+                        <div class="star my-3">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>75 review</span>
+                        </div>
+                        <span>£33.00</span>
+                        <div>
+                            <button class="single-item-btn theme-btn"><a href="#">ADD TO BAG <i
+                                        class="fa-solid fa-bag-shopping"></i></a></button>
+                        </div>
+                    </div>
+
+                    <!-- ========== box 2 ======== -->
+                    <div class="single-item">
+
+                        <div class="image-container">
+                            <img src="img/img 2.webp" alt="" class="first-img">
+                            <img src="img/hover-img2.webp" alt="" class="second-img">
+                        </div>
+
+                        <p>THE LOTION MEDIUM</p>
+                        <div class="star my-3">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>5 review</span>
+                        </div>
+                        <span>£18.00</span>
+                        <div>
+                            <button class="single-item-btn theme-btn"><a href="#">ADD TO BAG <i
+                                        class="fa-solid fa-bag-shopping"></i></a></button>
+                        </div>
+                    </div>
+
+                    <!-- ========== box 3 ======== -->
+                    <div class="single-item">
+
+                        <div class="image-container">
+                            <img src="img/img 3.webp" alt="" class="first-img">
+                            <img src="img/hover-img3.webp" alt="" class="second-img">
+                        </div>
+
+                        <p>THE GRADUAL TANNING LOTION</p>
+                        <div class="star my-3">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>64 review</span>
+                        </div>
+                        <span>£16.00</span>
+                        <div>
+                            <button class="single-item-btn theme-btn"><a href="#">ADD TO BAG <i
+                                        class="fa-solid fa-bag-shopping"></i></a></button>
+                        </div>
+                    </div>
+
+                    <!-- ========== box 4 ======== -->
+                    <div class="single-item">
+
+                        <div class="image-container">
+                            <img src="img/img 1.webp" alt="" class="first-img">
+                            <img src="img/hover-img4.webp" alt="" class="second-img">
+                        </div>
+
+                        <p>ORIGINAL BEAUTY BLUR, DARK</p>
+                        <div class="star my-3">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <span>1 review</span>
+                        </div>
+                        <span>£33.00</span>
+                        <div>
+                            <button class="single-item-btn theme-btn"><a href="#">ADD TO BAG <i
+                                        class="fa-solid fa-bag-shopping"></i></a></button>
+                        </div>
+                    </div>
+
+                    <!-- ========== box 5 ======== -->
+                    <div class="single-item">
+
+                        <div class="image-container">
+                            <img src="img/img 4.webp" alt="" class="first-img">
+                            <img src="img/hover-img5.webp" alt="" class="second-img">
+                        </div>
+
+                        <p>ORIGINAL BEAUTY BLUR, LIGHT</p>
+                        <!-- <div class="star my-3">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span>3 review</span>
+                            </div> -->
+                        <span>£33.00</span>
+                        <div>
+                            <button class="single-item-btn theme-btn"><a href="#">ADD TO BAG <i
+                                        class="fa-solid fa-bag-shopping"></i></a></button>
+                        </div>
+                    </div>
+
+                    <!-- ========== box 6 ======== -->
+                    <div class="single-item">
+
+                        <div class="image-container">
+                            <img src="img/img 5.webp" alt="" class="first-img">
+                            <img src="img/hover-img6.webp" alt="" class="second-img">
+                        </div>
+
+                        <p>THE MOUSSE MEDIUM</p>
+                        <div class="star my-3">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <span>21 review</span>
+                        </div>
+                        <span>£27.00</span>
+                        <div>
+                            <button class="last-btn"><a href="#">BACK ORDER <i
+                                        class="fa-solid fa-bag-shopping"></i></a></button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- INTRODUCING BLUR DROPS -->
+    <section class="introducing">
+        <div class="row align-items-center mt-5 w-100">
+
+            <div class="col-md-6 order-md-1 order-2">
+                <div class="introducing-box">
+                    <h3 class="sub-heading">INTRODUCING BLUR DROPS</h3>
+
+                    <div class="introducing-text-1">
+                        <p>
+                            <span>for ultimate pool side glamour apply to skin,</span>
+                            <span>let it set for 10mins. Apply your spf as</span>
+                            <span>normal, and go be fabulous!</span>
+                        </p>
+                    </div>
+
+                    <div class="introducing-text-2">
+                        <p>
+                            <span>Our pre launch stock <b>sold out in 12 hours</b>,</span><br>
+                            <span>and we know lots of you were disappointed,</span><br>
+                            <span>so we have organised a pro order opportunity</span>
+                            <span>that includes a </span>
+                            <span><b>FREE classic Body Brush,</b></span>
+                            <span>Shipping from 1st april.</span>
+                        </p>
+                    </div>
+
+                    <button class=" theme-btn1">PRE ORDER NOW</button>
+
+                </div>
+
+
+            </div>
+
+            <div class="col-md-6 order-md-2 order-1">
+                <div class="introducing-img mb-3 me-4 me-md-0 mb-md-0">
+                    <img src="img/introducing-img.webp" alt="">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- SHOP THE COLLECTION -->
+    <section class="shop-collection">
+        <div class="container w-75">
+            <h3 class="sub-heading d-flex justify-content-center align-items-center mb-5">SHOP THE COLLECTION</h3>
+
+            <div class="position-relative flex items-center justify-center overflow-hidden">
+
+                <button class="shop-prev position-absolute top-50 z-1 cursor-pointer"><i
+                        class="fas fa-chevron-left text-gray-500"></i></button>
+                <button class="shop-next position-absolute start-0 top-50 z-1 cursor-pointer"><i
+                        class="fas fa-chevron-right text-gray-500"></i></button>
+
+
+                <div class="slider">
+                    <div class="vid-1">
+                        <p>FACE TANNING</p>
+                        <video src="video/shop-video1.mov" autoplay muted loop controls></video>
+                        <div class="shop-btn">
+                            <button>SHOP FACE</button>
+                        </div>
+                    </div>
+                    <div class="vid-1">
+                        <P>BODY TANNING</P>
+                        <video src="video/shop-video2.mov" autoplay muted loop controls></video>
+                        <div class="shop-btn">
+                            <button>SHOP BODY</button>
+                        </div>
+                    </div>
+                    <div class="vid-1">
+                        <P>SKIN FINISHING</P>
+                        <video src="video/shop-video3.mov" autoplay muted loop controls></video>
+                        <div class="shop-btn">
+                            <button>SHOP SKIN FINISHING</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- GET SOCIAL WITH US -->
+    <section class="social">
+        <div class="container w-75">
+
+
+            <div class="row w-100">
+                <h3 class="sub-heading d-flex justify-content-center align-items-center mb-3">GET SOCIAL WITH US</h3>
+
+                <div class="col-md-3 col-6">
+                    <div class="social-img-container">
+                        <img src="img/social1.jpg" alt="" class="social-1">
+                        <div class="social-icon d-flex justify-content-center align-items-center"><i
+                                class="social-2 fa-brands fa-instagram"></i></div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="social-img-container">
+                        <img src="img/social2.jpg" alt="" class="social-1">
+                        <div class="social-icon d-flex justify-content-center align-items-center"><i
+                                class="social-2 fa-solid fa-circle-play"></i></div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="social-img-container">
+                        <img src="img/social3.jpg" alt="" class="social-1">
+                        <div class="social-icon d-flex justify-content-center align-items-center"><i
+                                class="social-2 fa-brands fa-instagram"></i></div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+
+                    <div class="social-img-container">
+                        <img src="img/social4.jpg" alt="" class="social-1">
+                        <div class="social-icon d-flex justify-content-center align-items-center"><i
+                                class="social-2 fa-brands fa-instagram"></i></div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-3">
+                    <div class="social-img-container d-md-block d-none">
+                        <img src="img/social5.jpg" alt="" class="social-1">
+                        <div class="social-icon d-flex justify-content-center align-items-center"><i
+                                class="social-2 fa-solid fa-circle-play"></i></div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="social-img-container d-md-block d-none">
+                        <img src="img/social6.jpg" alt="" class="social-1">
+                        <div class="social-icon d-flex justify-content-center align-items-center"><i
+                                class="social-2 fa-solid fa-circle-play"></i></div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="social-img-container d-md-block d-none">
+                        <img src="img/social7.jpg" alt="" class="social-1">
+                        <div class="social-icon d-flex justify-content-center align-items-center"><i
+                                class="social-2 fa-brands fa-instagram"></i></div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="social-img-container d-md-block d-none">
+                        <img src="img/social8.jpg" alt="" class="social-1">
+                        <div class="social-icon d-flex justify-content-center align-items-center"><i
+                                class="social-2 fa-solid fa-circle-play"></i></div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <!-- AS SEEN IN -->
+    <section class="seen">
+        <div class="container w-75">
+            <h3 class="sub-heading d-flex justify-content-center align-items-center mb-5">AS SEEN IN</h3>
+
+
+            <div class="slider-container">
+                <div class="testimonial active">
+                    <h3>FAB GRADUAL</h3>
+                    <p>“You can skip moisturiser altogether when your gradual tanner has this many skincare benefits…
+                        This <br> product is the best I have used in terms of colour, fragrance and longevity.” <br>
+                        Rachael Martin, GRAZIA</p>
+                    <div class="author"><img src="img/grazia-img.webp" alt=""></div>
+                </div>
+
+                <div class="testimonial">
+                    <h3>TINTED TAN MOUSSE</h3>
+                    <p>“Best Self-Tanner For Beginners. A User-Friendly Foam That Delivers Natural-Looking Color”</p>
+                    <div class="author"><img src="img/forbes-img.webp" alt=""></div>
+                </div>
+
+                <div class="testimonial">
+                    <h3>BODY BLUR</h3>
+                    <p>"Some instant bronzers seem to snag and drag on dry areas, but Body Blur blends easily rather
+                        than <br> gathering in tell-tale patchy creases around my knees. <br> I love the healthy colour
+                        and the soft, airbrushed, 'tights in a tube' finish. I'd say it looks real, except it <br> looks
+                        far better than my legs actually do!" <br> Lynne Hyland, Senior Beauty Editor - GOOD
+                        HOUSEKEEPING</p>
+                    <div class="author"><img src="img/good-img.webp" alt=""></div>
+                </div>
+
+                <div class="dots"></div>
+                <div class="nav-buttons position-relative">
+                    <button class="prevslide" onclick="prevSlide()"><i class="fa-solid fa-arrow-left"></i></button>
+                    <button class="nextslide" onclick="nextSlide()"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- COLLECTION SHOP  -->
+    <section class="collection-shop">
+
+        <div class="row align-items-center w-100">
+            <!-- COLLECTION ITEMS 1 -->
+            <div class="col-md-6">
+                <div class="collection-img mb-4 me-4 me-md-0 mb-md-0">
+                    <img src="img/collection-img-1.webp" alt="">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div
+                    class="collection-item-text d-flex flex-column justify-content-center               align-items-center mb-5  mb-md-0">
+                    <div class="me-5 me-md-0">
+                        <h3 class="sub-heading">THE BLUR COLLECTION</h3>
+                        <p>Body and Beauty Blur. Best selling <br> everyday perfecting skin finish. Wash off. <br> The
+                            Makeup Artists' award winning kit <br> essential.</p>
+                        <div class="dark-img">
+                            <img src="img/dark-cream-img.webp" alt="">
+                        </div>
+                        <button class="theme-btn">SHOP THE COLLECTION</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row align-items-center w-100">
+            <!-- COLLECTION ITEMS 2 -->
+            <div class="col-md-6 order-1 order-md-0">
+                <div
+                    class="collection-item-text d-flex flex-column justify-content-center align-items-center mb-4 mb-md-0">
+                    <div class="d-flex flex-column justify-content-center align-items-md-end me-5 me-md-0">
+                        <h3 class="sub-heading">BODY TANNING</h3>
+                        <p>Lotions, Mousses and Serums. Tinted or <br> clear. Choose your hydrating format - the <br>
+                            result is always assured. Natural, long <br> lasting tan and a perfect fade that comes <br>
+                            as standard.</p>
+                        <div class="dark-img">
+                            <img src="img/white-cream-img.webp" alt="">
+                        </div>
+                        <button class="theme-btn me-5 me-md-0">SHOP THE COLLECTION</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 order-0 order-md-1">
+                <div class="collection-img mb-5 me-4 me-md-0 mb-md-0">
+                    <img src="img/collection-img-2.webp" alt="">
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="row align-items-center w-100">
+            <!-- COLLECTION ITEMS 3 -->
+            <div class="col-md-6">
+                <div class="collection-img mb-3 me-4 me-md-0 mb-md-0">
+                    <img src="img/collection-img-3.webp" alt="">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="collection-item-text d-flex flex-column justify-content-center align-items-center">
+                    <div class="me-5 me-md-0">
+                        <h3 class="sub-heading">FACE TANNING</h3>
+                        <p>Start with a healthy glow. Achieve it with <br> the serum or lotion; perfect it with Beauty
+                            <br> Blur BB cream.
+                        </p>
+                        <button class="theme-btn">SHOP THE COLLECTION</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- DON’T TAKE OUR WORD FOR IT -->
+    <section class="word-text">
+        <div class="container w-75">
+            <h3 class="sub-heading d-flex justify-content-center align-items-center mb-5">DON’T TAKE OUR WORD FOR IT
+            </h3>
+
+
+            <div class="word-slider-container">
+
+                <div class="word-testimonial active">
+                    <h3>Beauty Blur, Awesome product</h3>
+                    <p>I love the glow it gives and it just makes your skin look better. I wouldn’t normally look at
+                        <br> ‘tanning’ products as my skin is somewhat tanned always but this has changed my <br>
+                        perspective as it gives a lovely blurred radiant glow that just gives off major summer vibes!!”
+                    </p>
+                    <span>Amzkhatz</span>
+                </div>
+
+                <div class="word-testimonial">
+                    <h3>Beautiful tanning product.</h3>
+                    <p>“Lovely smooth application. I tan in the sun slowly so I thought I would use the medium colour
+                        <br> and it's beautiful. Very natural appearance. I also used the tanning brush on my
+                        knees,elbows <br> and hands to blend in”
+                    </p>
+                    <span>Mush</span>
+                </div>
+
+                <div class="word-testimonial">
+                    <h3>Body Blur Medium</h3>
+                    <p>"Tish is an amazing product completely flawless coverage"</p>
+                    <span>Julie O M</span>
+                </div>
+
+
+                <div class="word-testimonial">
+                    <h3>Best fake tan cream around</h3>
+                    <p>“This miracle cream is just that, it smooths out imperfections and gives a lovely sheen and it
+                        <br> doesn’t come off on clothes as much as other tan creams. I so recommend it and will always
+                        <br> have this cream for any special occasion. I would recommend the tan mitt that goes with it
+                        as <br> unlike other tan mitts it does not go on your fingers”
+                    </p>
+                    <span> Dee Dee - Body Blur Medium</span>
+                </div>
+
+
+                <div class="word-testimonial">
+                    <h3>Body Blur</h3>
+                    <p>“Wouldn’t be without it , this is amazing for a blurring flawless finish especially for legs .
+                        <br> Doesn’t come off easily unless you was it off in the shower . Covers a multitude and the
+                        tube <br> lasts ages . I highly recommend it”
+                    </p>
+                    <span>Lizzie M</span>
+                </div>
+
+                <div class="word-testimonial">
+                    <h3>Excellent tan</h3>
+                    <p>Quick and easy to apply. Great results !! No smell, great coverage and leaves skin soft and <br>
+                        silky. Definitely recommended”</p>
+                    <span>CK15</span>
+                </div>
+
+                <div class="word-dots"></div>
+
+                <div class="word-nav-buttons position-relative">
+                    <button class="word-prevslide" onclick="wordPrevSlide()"><i
+                            class="fa-solid fa-arrow-left"></i></button>
+                    <button class="word-nextslide" onclick="wordNextSlide()"><i
+                            class=" fa-solid fa-arrow-right"></i></button>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- FOOTER  -->
+    <footer>
+        <div class="footer-container">
+
+            <div class="d-md-flex">
+                <div>
+                    <div>
+                        <h1>GET 15% OFF YOUR FIRST ORDER <br> SIGN UP TO OUR EMAIL</h1>
+                        <p>Be the first to hear about <br> exclusive offers and launches</p>
+                    </div>
+                    <div class="footer-form d-flex mt-5 mt-md-0">
+                        <input type="email" placeholder="Enter your email">
+                        <div class="pe-2"><button>Subscribe</button></div>
+                    </div>
+
+                </div>
+                <ul class="mt-5 me-md-5 mt-md-0">
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Returns Information</a></li>
+                    <li><a href="#">Shipping Information</a></li>
+                    <li><a href="#">Terms And Conditions</a></li>
+                </ul>
+
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- END  -->
+    <div class="end d-flex justify-content-center align-items-center d-md-block m-2">
+        <p>© 2024 Vitaliberata</p>
+    </div>
+
+
+
+
+
+</body>
+<script src="main.js"></script>
+
+</html>

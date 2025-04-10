@@ -1,0 +1,970 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --bg-color-1: #121212;
+    --bg-color-2: #f2f2fc;
+    --bg-color-3: #f2f2fc;
+
+    --text-color-1: #f3f3f3;
+    --text-color-2: #4d4d4d;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.sub-text {}
+
+.sub-heading {
+    /* font-family: "Bebas Neue", sans-serif; */
+    font-family: "Bebas Neue", "Bebas Neue";
+    color: #181818;
+    /* font-size: 25px; */
+    font-size: clamp(22px, 2vw, 34px);
+    font-weight: 400;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+img {
+    width: 100%;
+    height: 100vh;
+}
+
+.theme-btn {
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    background: var(--bg-color-1);
+    color: var(--text-color-1);
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Barlow", "Barlow";
+    line-height: 24px;
+}
+
+.theme-btn:hover {
+    background: #4d4d4d;
+}
+
+
+.theme-btn1 {
+    /* width: 216px; */
+    width: clamp(180px, 16vw, 220px);
+    padding: 8px 24px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    background: var(--bg-color-1);
+    color: var(--text-color-1);
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Barlow", "Barlow";
+    line-height: 24px;
+    background-color: #343434;
+}
+
+.theme-btn1:hover {
+    background: #4d4d4d;
+}
+
+
+/* header */
+header {
+    background-color: #1f2934;
+    color: #fff;
+    height: 40px;
+}
+
+header span {
+    font-family: "DIN Next", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+
+
+/* NAVBAR */
+.navbar {
+    padding: 10px;
+}
+
+.navbar .nav-item {
+    padding: 10px;
+}
+
+.navbar .nav-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar .nav-logo {
+    width: 156px;
+    height: 80px;
+}
+
+.navbar .nav-item a,
+.dropbtn {
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 400;
+    font-family: Barlow, sans-serif;
+    color: #111;
+}
+
+.navbar form a {
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 400;
+    font-family: "DIN Next", sans-serif;
+    color: #111;
+}
+
+.navbar form .dropdown ul li a {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+    font-family: "DIN Next", sans-serif;
+    color: #111;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-inline: 0;
+}
+
+.navbar form i {
+    font-size: 20px;
+}
+
+/* Selected Option Display */
+.selected-option {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* Flag Icon */
+.flag-icon {
+    width: 24px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+/* Dropdown Select */
+select {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 5px;
+    background: white;
+    cursor: pointer;
+}
+
+/* Dropdown Select Styling */
+.flag-img {
+    width: 26px;
+    height: 19px;
+    border-radius: 2px;
+}
+
+.dropdown-menu img {
+    width: 26px;
+    height: 19px;
+    border-radius: 2px;
+}
+
+
+
+
+.megamenu {
+    float: left;
+    overflow: hidden;
+}
+
+.megamenu .dropbtn {
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    margin: 0;
+}
+
+.megamenu-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 95%;
+    left: 20px;
+    z-index: 1;
+    padding: 20px;
+}
+
+.off-canvas-megamenu-content {
+    background-color: #ececec;
+    margin-top: 10px;
+    transition: all 0.3s linear;
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+}
+
+.offcanvas-megamenu:hover .off-canvas-megamenu-content {
+    height: auto;
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.offcanvas-megamenu:hover .off-canvas-megamenu-content .row {
+    transform: translateY(0px);
+}
+
+.off-canvas-megamenu-content .row {
+    transition: all 0.3s linear;
+    transform: translateY(30px);
+}
+
+.off-canvas-megamenu-content h3 {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Helvetica Neue", Helvetica, Arial;
+    color: #222;
+    margin: 15px 0 10px;
+    padding: 0 0 10px 10px;
+    border-bottom: 1px solid black;
+}
+
+.megamenu:hover .megamenu-content {
+    display: block;
+}
+
+.megamenu-content a,
+.off-canvas-megamenu-content a {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Helvetica Neue", Arial;
+    background-color: transparent;
+    color: #111;
+    float: none;
+    display: block;
+    text-align: left;
+    padding-block: 2px;
+}
+
+.off-canvas-megamenu-content a {
+    padding-left: 10px;
+}
+
+.megamenu-content a:hover {
+    color: #0da19a;
+}
+
+.navbar .megamenu-content h3 {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Helvetica Neue", Helvetica, Arial;
+    color: #222;
+    margin-bottom: 24px;
+}
+
+.navbar .megamenu-content h3:hover {
+    color: #0da19a;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.offcanvas-body .navbar-nav .nav-item {
+    border-top: 1px solid #eaeaea;
+    padding: 10px 0;
+}
+
+.offcanvas-body .dropdown li {
+    text-align: left;
+}
+.dropdown-menu.show{
+    height: 200px;
+    overflow-y: scroll;
+}
+
+
+
+
+
+
+
+/* Hero Section */
+.hero {
+    background-image: url("../img/hero.webp");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero .hero-text {
+    color: var(--text-color-1);
+    font-weight: 400;
+}
+
+.hero-text p {
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 38px;
+    font-family: "Bebas Neue";
+}
+
+.hero-text span {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "DIN Next", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 24px;
+}
+
+.hero-btn {
+    font-size: 18px;
+    font-family: "Barlow", "Barlow";
+    font-style: normal;
+    padding: 8px 75px;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s ease all;
+    line-height: 27px;
+}
+
+.hero-btn:hover {
+    background: var(--bg-color-1);
+    color: var(--text-color-1);
+}
+
+
+
+/* OUR NEW COLLECTION  */
+.single-item P {
+    letter-spacing: 1px;
+    color: var(--text-color-2);
+    font-size: 18px;
+    line-height: 18px;
+    font-style: none;
+    font-weight: 500;
+    margin-top: 10px;
+    font-family: "Barlow", "Bebas Neue";
+}
+
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    width: 95%;
+    height: 275px;
+}
+
+.image-container img {
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.image-container .first-img {
+    display: block;
+    opacity: 1;
+}
+
+.image-container .second-img {
+    display: block;
+    opacity: 0;
+}
+
+.image-container:hover .first-img {
+    opacity: 0;
+}
+
+.image-container:hover .second-img {
+    opacity: 1;
+}
+
+
+
+.single-item-btn {
+    width: 95%;
+    padding: 8px 24px;
+    margin-top: 14px;
+}
+
+.multiple-items .single-item .last-btn {
+    width: 95%;
+    padding: 8px 24px;
+    margin-top: 14px;
+    border: 2px solid #1111112d;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Barlow", "Barlow";
+    line-height: 24px;
+}
+
+.multiple-items .single-item .last-btn a {
+    color: #1111116b;
+}
+
+.slick-dots li button:before {
+    font-size: 14px;
+    top: 20px;
+}
+
+.pre-arrow {
+    position: absolute;
+    z-index: 1;
+    top: 45%;
+    left: 15px;
+    border: 0;
+    font-size: 20px;
+    background: transparent;
+}
+
+.next-arrow {
+    position: absolute;
+    z-index: 1;
+    top: 45%;
+    right: 30px;
+    border: 0;
+    font-size: 20px;
+    background: transparent;
+}
+
+.single-item .star span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+    letter-spacing: 2px;
+    /* font-family: "DIN Next", sans-serif; */
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.single-item span {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Bebas Neue";
+    line-height: 23px;
+    color: #4d4d4d;
+}
+
+.showe-img img:hover {
+    display: none;
+}
+
+
+
+
+
+
+/* INTRODUCING BLUR DROPS */
+.introducing .introducing-box {
+    margin-inline: clamp(20px, 8vw, 100px);
+}
+
+.introducing .introducing-box .introducing-text-1 p {
+    letter-spacing: 1px;
+    /* font-size: 18px; */
+    font-size: clamp(14px, 1.4vw, 22px);
+    font-weight: 400;
+    line-height: 20px;
+    font-family: "Bebas Neue", Barlow;
+    color: var(--text-color-2);
+}
+
+.introducing .introducing-box .introducing-text-2 p {
+    /* font-size: 16px; */
+    font-size: clamp(14px, 1.2vw, 20px);
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1px;
+    font-family: "Barlow";
+    color: var(--text-color-2);
+}
+
+.introducing .introducing-img img {
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/* SHOP THE COLLECTION  */
+.slider .vid-1 video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.slider .vid-1 {
+    width: 95% !important;
+    position: relative;
+    left: 2.5%;
+    height: 100%;
+}
+
+.shop-collection .slider .vid-1 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Bebas Neue", "Bebas Neue";
+    line-height: 26px;
+    letter-spacing: 1px;
+    color: #121212;
+}
+
+.shop-collection .slider .vid-1 .shop-btn button {
+    border: 0;
+    outline: 0;
+    width: 279px;
+    height: 44px;
+    padding: 8px 24px;
+    background-color: #343434;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Barlow", "Barlow";
+    line-height: 18px;
+    border-radius: 5px;
+}
+
+.shop-collection .slider .vid-1 .shop-btn button:hover {
+    background-color: #4d4d4d;
+}
+
+.shop-collection .slider .vid-1 .shop-btn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop-prev {
+    border: 0;
+    font-size: 20px;
+    background: transparent;
+}
+
+.shop-next {
+    position: absolute;
+    border: 0;
+    font-size: 20px;
+    background: transparent;
+}
+
+
+
+
+
+
+
+
+
+/* GET SOCIAL WITH US  */
+.social .social-img-container img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+    object-fit: cover;
+}
+
+.social .social-img-container .social-icon {
+    width: 100%;
+    height: 100%;
+    background-color: #111;
+}
+
+.social-img-container i {
+    font-size: 20px;
+    color: #fff;
+}
+
+.social-img-container {
+    position: relative;
+    display: inline-block;
+    width: 241px;
+    height: 241px;
+}
+
+.social-img-container .social-1 {
+    display: block;
+    opacity: 1;
+}
+
+.social-img-container .social-2 {
+    display: block;
+    opacity: 0;
+}
+
+.social-img-container:hover .social-1 {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.social-img-container:hover .social-2 {
+    opacity: 0.9;
+}
+
+
+
+/* AS SEEN IN  */
+.slider-container {
+    text-align: center;
+    background: #fff;
+    /* padding: 30px; */
+    position: relative;
+}
+
+.testimonial h3 {
+    font-family: "Bebas Neue", Barlow;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    color: #333;
+}
+
+.testimonial p {
+    font-family: "Barlow", "Barlow";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #172b4d;
+}
+
+.active {
+    display: block;
+}
+
+.author {
+    margin-top: 10px;
+}
+
+.author img {
+    width: 182px;
+    height: 109px;
+    border-top: 1px solid #000;
+}
+
+.nav-buttons .prevslide {
+    left: 20px;
+    bottom: 70px;
+}
+
+.nav-buttons .nextslide {
+    right: 20px;
+    bottom: 70px;
+}
+
+.nav-buttons button {
+    position: absolute;
+    border: none;
+    background-color: inherit;
+    color: black;
+    cursor: pointer;
+}
+
+.nav-buttons button i {
+    font-size: 24px;
+}
+
+/* testimonial-dots  */
+.dots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: lightgray;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dot.active {
+    background-color: black;
+}
+
+.testimonial {
+    display: none;
+}
+
+.testimonial.active {
+    display: block;
+}
+
+
+
+
+
+
+/* COLLECTION SHOP   */
+.collection-shop .collection-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.collection-shop .collection-item-text .dark-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.collection-shop .collection-item-text .dark-img {
+    /* width: 300px;
+    height: 285px; */
+    width: clamp(225px, 20vw, 300px);
+    height: clamp(210px, 20vw, 285px);
+}
+
+.collection-shop .collection-item-text p {
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000;
+    font-family: "Barlow", "Barlow";
+}
+
+.collection-shop .collection-item-text button {
+    /* width: 316px; */
+    height: 44px;
+    width: clamp(230px, 20vw, 316px);
+}
+
+
+
+
+/* DON’T TAKE OUR WORD FOR IT */
+.word-slider-container {
+    text-align: center;
+    background: #fff;
+    /* padding: 30px; */
+    position: relative;
+}
+
+.word-testimonial h3 {
+    font-family: "Bebas Neue", Barlow;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    color: #333;
+}
+
+.word-testimonial p {
+    font-family: "Barlow", "Barlow";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #172b4d;
+}
+
+.word-testimonial span {
+    color: #999;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    font-family: "Barlow", "Barlow";
+}
+
+.active {
+    display: block;
+}
+
+.word-nav-buttons .word-prevslide {
+    left: 20px;
+    bottom: 70px;
+}
+
+.word-nav-buttons .word-nextslide {
+    right: 20px;
+    bottom: 70px;
+}
+
+.word-nav-buttons button {
+    position: absolute;
+    border: none;
+    background-color: inherit;
+    color: black;
+    cursor: pointer;
+}
+
+.word-nav-buttons button i {
+    font-size: 24px;
+}
+
+/* word-dot */
+.word-testimonials-container {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.word-testimonial {
+    display: none;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    /* padding: 20px; */
+    box-sizing: border-box;
+}
+
+.word-testimonial.active {
+    display: block;
+}
+
+.word-dots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.word-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: lightgray;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.word-dot.active {
+    background-color: black;
+}
+
+
+
+
+
+
+/* FOOTER  */
+footer {
+    background-color: #111;
+    /* height: 276px; */
+    padding: 64px 0 64px 0;
+    /* padding-left: 20px; */
+    padding-left: clamp(15px, 2vw, 20px);
+}
+
+footer .footer-container h1 {
+    /* font-size: 28px; */
+    font-size: clamp(20px, 2vw, 32px);
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+    font-family: "Barlow";
+}
+
+footer .footer-container p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Barlow";
+}
+
+footer .footer-container ul {
+    list-style: none;
+
+}
+
+footer .footer-container ul li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    font-family: "Barlow";
+}
+
+footer .footer-container .footer-form input {
+    border: 0;
+    outline: 0;
+    /* width: 360px; */
+    width: clamp(200px, 24vw, 360px);
+    height: 50px;
+    border-radius: 5px;
+    padding: 16px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-color-2);
+}
+
+footer .footer-container .footer-form input::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-color-2);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+footer .footer-container .footer-form button {
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #303b43;
+    padding: 0 10px;
+    /* width: 97px; */
+    width: clamp(90px, 10vw, 97px);
+    height: 50px;
+    border-radius: 5px;
+}
+
+
+
+/* END  */
+.end p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Barlow";
+    line-height: 24px;
+    color: #111;
+}

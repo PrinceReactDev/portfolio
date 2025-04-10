@@ -1,0 +1,11 @@
+@media (min-width: 320px) {
+    .use-hero button{
+        width: 245px;
+    }
+}
+
+@media (min-width: 720px) {
+    .use-hero button{
+        width: 339px;
+    }
+}

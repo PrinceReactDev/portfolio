@@ -1,0 +1,818 @@
+@media (min-width : 320px) {
+
+    section {
+        margin-top: 25px;
+    }
+
+    .sub-Headings {
+        font-size: 24px;
+    }
+
+    .sub-title {
+        font-size: 16px;
+    }
+
+
+    /* navbar  */
+    header {
+        padding: 6px;
+    }
+
+    .navbar {
+        border-radius: 25px;
+    }
+
+    .navbar button {
+        font-size: 10px;
+        height: 25px;
+    }
+
+    .navbar img {
+        width: 30px;
+    }
+    .navbar ul li a.active::before {
+        left: 10%;
+    }    
+
+
+    /* portfolio-details-banner  */
+    .portfolio-details-banner h2 {
+        font-size: 24px;
+    }
+
+    .portfolio-details-banner p {
+        font-size: 14px;
+    }
+
+    .portfolio-details-banner .portfolio-details-banner-content button {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    .portfolio-details-banner .portfolio-details-banner-content {
+        width: 280px;
+        height: 280px;
+        padding: 30px;
+    }
+
+    /* portfolio-information  */
+    .portfolio-information .information-img {
+        width: 400px;
+        height: 200px;
+    }
+
+    .portfolio-information .iLearning-engines {
+        height: 300px;
+    }
+
+    .portfolio-information-contant h5 {
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .portfolio-information-contant p {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .portfolio-information-contant p span {
+        font-size: 12px;
+    }
+
+    .information-left-circle {
+        bottom: 40%;
+        left: -15%;
+    }
+
+    .information-right-circle {
+        top: 1%;
+        right: -15%;
+    }
+
+    /* footer  */
+    footer {
+        font-size: 14px;
+        margin-top: 30px;
+    }
+
+    footer h5 {
+        font-size: 18px;
+    }
+
+    footer .logo a {
+        width: 35px;
+    }
+
+    .footer-right {
+        bottom: -5%;
+    }
+
+    .footer-logo img {
+        width: 45%;
+    }
+
+
+    /* End  */
+    .End p {
+        font-size: 10px;
+    }
+
+}
+
+@media (min-width : 375px) {}
+
+@media (min-width : 420px) {
+
+     /* navbar  */
+     .navbar ul li a.active::before {
+        left: 8%;
+    }    
+    
+    /* portfolio-details-banner  */
+    .portfolio-details-banner .portfolio-details-banner-content {
+        width: 300px;
+        height: 300px;
+        padding: 40px;
+    }
+}
+
+
+@media (min-width : 525px) {
+
+     
+    /* navbar  */
+    .navbar ul li a.active::before {
+        left: 5%;
+    }    
+
+    /* portfolio-details-banner  */
+    .portfolio-details-banner h2 {
+        font-size: 26px;
+    }
+
+    .portfolio-details-banner p {
+        font-size: 16px;
+    }
+
+    .portfolio-details-banner .portfolio-details-banner-content button {
+        font-size: 16px;
+    }
+
+    .portfolio-details-banner .portfolio-details-banner-content {
+        width: 320px;
+        height: 320px;
+        padding: 40px;
+    }
+
+    /* portfolio-information  */
+    .portfolio-information-contant h5 {
+        font-size: 22px;
+    }
+
+    .portfolio-information-contant p {
+        font-size: 16px;
+    }
+
+    .portfolio-information-contant p span {
+        font-size: 14px;
+    }
+
+    .information-left-circle {
+        bottom: 30%;
+        left: -10%;
+    }
+
+    .information-right-circle {
+        top: 1%;
+        right: -10%;
+    }
+
+    /* footer  */
+    footer h5 {
+        font-size: 20px;
+    }
+
+    footer .logo p {
+        font-size: 14px;
+    }
+
+    footer .list-unstyled li {
+        font-size: 14px;
+    }
+
+    footer .Contact a {
+        font-size: 14px;
+    }
+
+
+    /* End  */
+    .End p {
+        font-size: 12px;
+    }
+}
+
+@media (min-width : 540px) {}
+
+@media (min-width : 575px) {}
+
+
+@media (min-width : 768px) {
+
+    section {
+        margin-top: 25px;
+    }
+
+      /* navbarv  */
+      .navbar ul li a.active::before {
+        left: 4%;
+    }    
+
+    /* portfolio-information  */
+    .portfolio-information .information-img {
+        width: 400px;
+        height: 250px;
+    }
+
+    .portfolio-information .iLearning-engines {
+        height: 330px;
+    }
+
+    .portfolio-information-contant h5 {
+        font-size: 22px;
+    }
+
+    .portfolio-information-contant p {
+        font-size: 18px;
+    }
+
+    .portfolio-information-contant p span {
+        font-size: 16px;
+    }
+
+    .information-left-circle {
+        bottom: 22%;
+        left: -10%;
+    }
+
+    .information-right-circle {
+        top: 1%;
+        right: -10%;
+    }
+
+    /* footer  */
+    .footer-logo img {
+        width: 30%;
+    }
+
+    .footer-right {
+        bottom: -8%;
+    }
+
+
+}
+
+@media (min-width : 820px) {
+
+
+     /* navbar  */
+     .navbar ul li a.active::before {
+        left: 3%;
+    }    
+
+    /* footer  */
+    .footer-left {
+        left: 0%;
+        top: 0%;
+    }
+
+    .footer-right {
+        right: 0%;
+        bottom: 6%;
+        width: 164px;
+        height: 150px;
+    }
+}
+
+@media (min-width : 853px) {
+
+    /* portfolio-information  */
+    .information-left-circle {
+        bottom: 22%;
+        left: -5%;
+    }
+
+    .information-right-circle {
+        top: 1%;
+        right: -5%;
+    }
+}
+
+@media (min-width : 912px) {
+
+    /* navbar  */
+    .navbar {
+        margin: 0 25px;
+    }
+
+
+    /* footer  */
+    .footer-left img {
+        width: 80%;
+    }
+}
+
+
+@media (min-width : 992px) {
+
+    section {
+        margin-top: 40px;
+    }
+
+    .sub-Headings {
+        font-size: 30px;
+    }
+
+    .sub-title {
+        font-size: 18px;
+    }
+
+    /* navbar  */
+    header {
+        padding: 6px;
+    }
+
+    .navbar {
+        border-radius: 30px;
+    }
+
+    .navbar button {
+        font-size: 15px;
+        height: 34px;
+    }
+
+    .navbar img {
+        width: 35px;
+    }
+    .navbar ul li a.active::before {
+        left: 50%;
+        transform: translate(-50% , 0);
+        bottom: 2px;
+    }    
+
+    /* portfolio-information  */
+    .information-left-circle {
+        bottom: 32%;
+        left: -5%;
+    }
+
+    .information-right-circle {
+        right: -5%;
+    }
+
+    /* footer  */
+    footer {
+        font-size: 15px;
+    }
+
+    footer h5 {
+        font-size: 18px;
+    }
+
+    footer .logo a {
+        width: 35px;
+    }
+
+    .footer-logo img {
+        width: 65%;
+    }
+
+    .footer-left {
+        left: 0%;
+        top: 0%;
+    }
+
+    .footer-right {
+        right: 0;
+        bottom: 10%;
+        width: 164px;
+        height: 150px;
+    }
+
+    /* End  */
+    .End p {
+        font-size: 15px;
+    }
+
+}
+
+
+@media (min-width : 1024px) {}
+
+
+@media (min-width : 1280px) {
+
+    section {
+        margin-top: 40px;
+    }
+
+    .sub-Headings {
+        font-size: 30px;
+    }
+
+    .sub-title {
+        font-size: 18px;
+    }
+
+    /* navbar  */
+    header {
+        padding: 6px;
+    }
+
+    .navbar {
+        margin: 0 40px;
+    }
+
+    .navbar button {
+        font-size: 15px;
+        height: 34px;
+    }
+
+    .navbar img {
+        width: 35px;
+    }
+
+
+    /* portfolio-details-banner  */
+    .portfolio-details-banner h2 {
+        font-size: 28px;
+    }
+
+    .portfolio-details-banner p {
+        font-size: 16px;
+    }
+
+    .portfolio-details-banner .portfolio-details-banner-content button {
+        font-size: 16px;
+        padding: 8px 20px;
+    }
+
+    .portfolio-details-banner .portfolio-details-banner-content {
+        width: 350px;
+        height: 350px;
+        padding: 50px;
+    }
+
+    /* portfolio-information  */
+    .portfolio-information .information-img {
+        width: 400px;
+        height: 300px;
+    }
+
+    .portfolio-information .iLearning-engines {
+        height: 400px;
+    }
+
+    .portfolio-information-contant h5 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    .portfolio-information-contant p {
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+
+    .portfolio-information-contant p span {
+        font-size: 16px;
+        margin-left: 10px;
+    }
+
+    .information-left-circle {
+        bottom: 30%;
+        left: -6%;
+        width: 150px;
+        height: 150px;
+        border: 35px solid #ECF5F5;
+    }
+
+    .information-right-circle {
+        top: 0%;
+        right: -6%;
+        width: 150px;
+        height: 150px;
+        border: 35px solid #ECF5F5;
+    }
+
+
+    /* footer  */
+    footer .logo p {
+        font-size: 17px;
+    }
+
+    footer h5 {
+        font-size: 22px;
+    }
+
+    footer .list-unstyled li {
+        font-size: 17px;
+    }
+
+    footer .Contact a {
+        font-size: 17px;
+    }
+
+}
+
+@media (min-width : 1440px) {
+
+    /* portfolio-details-banner  */
+    .portfolio-details-banner h2 {
+        font-size: 30px;
+    }
+
+    .portfolio-details-banner p {
+        font-size: 20px;
+    }
+
+    .portfolio-details-banner .portfolio-details-banner-content button {
+        font-size: 20px;
+    }
+
+    .portfolio-details-banner .portfolio-details-banner-content {
+        width: 400px;
+        height: 400px;
+        padding: 50px;
+    }
+
+    /* End */
+    .End p {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (min-width : 1600px) {
+
+    .sub-Headings {
+        font-size: 34px;
+    }
+
+    .sub-title {
+        font-size: 22px;
+    }
+
+
+    /* navbar  */
+    .navbar img {
+        width: 60px;
+    }
+
+    .navbar a {
+        font-size: 25px;
+        margin-inline: 12px;
+    }
+
+    .navbar button {
+        font-size: 22px;
+        height: 55px;
+    }
+
+    .navbar {
+        border-radius: 40px;
+    }
+
+    header {
+        padding: 12px;
+    }
+
+    /* portfolio-information  */
+    .portfolio-information .information-img {
+        width: 500px;
+        height: 320px;
+    }
+
+    .portfolio-information .iLearning-engines {
+        width: 100%;
+        height: 400px;
+    }
+
+    .portfolio-information-contant h5 {
+        font-size: 26px;
+    }
+
+    .portfolio-information-contant p {
+        font-size: 20px;
+    }
+
+    .portfolio-information-contant p span {
+        font-size: 18px;
+    }
+
+    .information-left-circle {
+        bottom: 30%;
+        left: -4%;
+        width: 200px;
+        height: 200px;
+        border: 40px solid #ECF5F5;
+    }
+
+    .information-right-circle {
+        top: 1%;
+        right: -4%;
+        width: 200px;
+        height: 200px;
+        border: 40px solid #ECF5F5;
+    }
+
+
+    
+
+    /* footer  */
+    .footer-left img {
+        width: 105%;
+    }
+
+    .footer-right img {
+        width: 170%;
+    }
+
+    .footer-right {
+        right: 6%;
+        bottom: 35%;
+        width: 125px;
+        height: 100px;
+    }
+}
+
+
+@media (min-width : 1680px) {
+
+    /* portfolio-details-banner  */
+    .portfolio-details-banner h2 {
+        font-size: 34px;
+    }
+
+    .portfolio-details-banner .portfolio-details-banner-content {
+        width: 440px;
+        height: 440px;
+        padding: 70px;
+    }
+
+    /* footer  */
+    .footer-left img {
+        width: 130%;
+    }
+
+    .footer-right {
+        right: 6%;
+        bottom: 28%;
+        width: 150px;
+        height: 172px;
+    }
+
+    footer h5 {
+        font-size: 30px;
+    }
+
+    footer .list-unstyled li {
+        font-size: 20px;
+    }
+
+    footer .Contact a {
+        font-size: 20px;
+    }
+
+    footer .logo p {
+        font-size: 20px;
+    }
+
+    .footer-logo img {
+        width: 75%;
+    }
+
+    footer .logo a {
+        width: 55px;
+    }
+
+    footer .logo a i {
+        font-size: 35px;
+    }
+
+}
+
+@media (min-width : 1920px) {
+
+    .sub-Headings {
+        font-size: 40px;
+    }
+
+    .sub-title {
+        font-size: 26px;
+    }
+
+    /* navbar  */
+    .navbar {
+        border-radius: 50px;
+    }
+
+
+    /* portfolio-details-banner  */
+    .portfolio-details-banner h2 {
+        font-size: 36px;
+    }
+
+    .portfolio-details-banner p {
+        font-size: 22px;
+    }
+
+    .portfolio-details-banner .portfolio-details-banner-content button {
+        font-size: 22px;
+    }
+
+    .portfolio-details-banner .portfolio-details-banner-content {
+        width: 460px;
+        height: 460px;
+        padding: 65px;
+    }
+
+
+    /* portfolio-information  */
+    .portfolio-information .information-img {
+        width: 550px;
+        height: 330px;
+    }
+
+    .portfolio-information .iLearning-engines {
+        height: 450px;
+    }
+
+    .portfolio-information-contant h5 {
+        font-size: 28px;
+    }
+
+    .portfolio-information-contant p {
+        font-size: 22px;
+    }
+
+    .portfolio-information-contant p span {
+        font-size: 20px;
+    }
+
+    .information-left-circle {
+        bottom: 40%;
+        left: -3%;
+        width: 230px;
+        height: 230px;
+        border: 45px solid #ECF5F5;
+    }
+
+    .information-right-circle {
+        top: 1%;
+        right: -3%;
+        width: 230px;
+        height: 230px;
+        border: 45px solid #ECF5F5;
+    }
+
+
+
+    /* footer  */
+    footer h5 {
+        font-size: 35px;
+    }
+
+    .footer-left img {
+        width: 100%;
+    }
+
+    .footer-right img {
+        width: 120%;
+    }
+
+    .footer-right {
+        right: 35px;
+        bottom: 10%;
+    }
+
+    /* End  */
+    .End p {
+        font-size: 25px;
+    }
+
+}
+
+@media (min-width : 2048px) {
+
+    /* navbar  */
+    .navbar img {
+        width: 70px;
+    }
+
+    .navbar button {
+        font-size: 25px;
+        height: 60px;
+    }
+
+}

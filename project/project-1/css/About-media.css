@@ -1,0 +1,1615 @@
+@media (min-width : 320px) {
+
+    section {
+        margin-top: 25px;
+    }
+
+    .sub-Headings {
+        font-size: 24px;
+    }
+
+    .sub-title {
+        font-size: 16px;
+    }
+
+    /* navbar  */
+    header {
+        padding: 6px;
+    }
+
+    .navbar {
+        border-radius: 25px;
+    }
+
+    .navbar button {
+        font-size: 10px;
+        height: 25px;
+    }
+
+    .navbar img {
+        width: 30px;
+    }
+    .navbar ul li a.active::before {
+        left: 8%;;
+    }
+
+
+    /* About-banner  */
+    .About-banner .circle1 {
+        width: 270px;
+        height: 270px;
+        top: -95px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .About-banner .About-banner-text p {
+        font-size: 10px;
+    }
+
+    .About-banner .About-banner-text h1 {
+        font-size: 14px;
+    }
+
+    .About-banner .About-banner-text button {
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+
+    .About-banner .About-banner-text {
+        padding: 60px 30px 30px;
+    }
+
+
+    /* team-theme  */
+    .team-single-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .team-theme {
+        height: 400px;
+    }
+
+
+    /* Corporate */
+    .Corporate {
+        margin-top: 0;
+    }
+
+    .Corporate .services-img {
+        height: 260px;
+    }
+
+    .Corporate .right-circle {
+        width: 200px;
+        height: 200px;
+        right: -31%;
+        top: 3%;
+    }
+
+
+    /* Provided-Services-type */
+    .Provided-Services-type .Service-part-1 {
+        border-right: none;
+    }
+
+    .represent-services {
+        width: 320px;
+        height: 300px;
+    }
+
+    .Provided-Services-type .left-circle {
+        width: 200px;
+        height: 200px;
+        left: -31%;
+        top: 7%;
+    }
+
+
+    /* Strengths  */
+    .Strengths {
+        top: -25px;
+    }
+
+    .Strengths .technology-trends {
+        width: 300px;
+        height: 330px;
+    }
+
+    .Strengths .right-circle {
+        width: 180px;
+        height: 180px;
+        right: -10%;
+        top: 0%;
+    }
+
+
+    /* Business */
+    .Business .Philosophy {
+        width: 280px;
+        height: 280px;
+    }
+
+    .Business .left-circle {
+        width: 180px;
+        height: 180px;
+        left: -10%;
+        bottom: 79%;
+    }
+
+    /* Methodology  */
+    .Methodology .Methodology-framework {
+        width: 300px;
+        height: 250px;
+    }
+
+    /* framework  */
+    .framework-card {
+        width: 100%;
+        height: auto;
+    }
+
+    .framework .framework-card h6 {
+        font-size: 18px;
+    }
+
+    .framework .framework-card p {
+        font-size: 14px;
+    }
+    .framework .Question-mark{
+        width: 25px;
+    }
+    .framework .custom-shape {
+        width: 60px;
+        height: 60px;
+        ;
+    }
+    .framework-star {
+        width: 22px;
+    }
+
+     /* Directors */
+  .Directors .Directors-card{
+    width: 100%;
+    margin-bottom: 125px;
+  }
+  .Directors .Directors-card::before{
+    width: 100%;
+    height: 100px;
+    top: 100%;
+  }
+  .Directors .Directors-card .directors-card-icon{
+    width: 50px;
+    height: 50px;
+    bottom: -8%;
+  }
+  .directors-card-icon i{
+    font-size: 25px;
+  }
+  .Directors .Directors-card:hover .directors-card-icon{
+    left: 75%;
+    bottom: -100px;
+  }
+  .Directors .Directors-card h6 {
+    font-size: 18px;
+}
+  .Directors .Directors-card p{
+    font-size: 14px;
+  }
+
+
+
+
+    /* footer  */
+    footer {
+        font-size: 14px;
+        margin-top: 30px;
+    }
+
+    footer h5 {
+        font-size: 18px;
+    }
+
+    footer .logo a {
+        width: 35px;
+    }
+
+    .footer-right {
+        bottom: -5%;
+    }
+
+    .footer-logo img {
+        width: 45%;
+    }
+
+
+    /* End  */
+    .End p {
+        font-size: 10px;
+    }
+
+}
+
+
+@media (min-width : 375px) {
+
+    /* Corporate */
+    .Corporate .right-circle {
+        right: -27%;
+    }
+
+    /* Provided-Services-type */
+    .Provided-Services-type .left-circle {
+        left: -27%;
+    }
+
+    /* framework */
+    .framework .framework-card p {
+        font-size: 15px;
+    }
+    .framework .framework-card h6 {
+        font-size: 20px;
+    }
+
+    /* Directors  */
+    .Directors .Directors-card:hover .directors-card-icon{
+        left: 80%;
+        bottom: -100px;
+      }
+}
+
+@media (min-width : 420px) {
+
+    /* navbar */
+    .navbar ul li a.active::before {
+        left: 6%;
+    }
+
+    /* About-banner  */
+    .About-banner .About-banner-text p {
+        font-size: 11px;
+    }
+
+    .About-banner .About-banner-text h1 {
+        font-size: 15px;
+    }
+
+    .About-banner .About-banner-text {
+        padding: 60px 36px 36px;
+    }
+
+    .About-banner .About-banner-text button {
+        font-size: 12px;
+    }
+
+    /* Corporate */
+    .Corporate .services-img {
+        height: 300px;
+    }
+
+    .Corporate .right-circle {
+        width: 230px;
+        height: 230px;
+        right: -15%;
+    }
+
+    /* Provided-Services-type */
+    .Provided-Services-type .left-circle {
+        left: -24%;
+    }
+
+    /* framework */
+    .framework-star {
+        width: 25px;
+    }
+}
+
+@media (min-width : 525px) {
+
+    /* navbar */
+    .navbar ul li a.active::before {
+        left: 5%;
+    }
+
+    /* Corporate  */
+    .Corporate .services-img {
+        height: 350px;
+    }
+
+    .Corporate .right-circle {
+        width: 300px;
+        height: 300px;
+        top: 3%;
+    }
+
+    /* Provided-Services-type */
+    .represent-services {
+        width: 400px;
+        height: 370px;
+    }
+
+    .Provided-Services-type .left-circle {
+        width: 270px;
+        height: 270px;
+        left: -28%;
+        top: 5%;
+    }
+
+    /* Strengths  */
+    .Strengths {
+        top: -30px;
+    }
+
+    .Strengths .technology-trends {
+        width: 350px;
+        height: 380px;
+    }
+
+    .Strengths .right-circle {
+        width: 220px;
+        height: 220px;
+    }
+
+
+    /* Business */
+    .Business .Philosophy {
+        width: 480px;
+        height: 350px;
+    }
+
+    .Business .left-circle {
+        width: 220px;
+        height: 220px;
+        left: -10%;
+        bottom: 73%;
+    }
+
+    /* Directors  */
+    .Directors .Directors-card h6 {
+        font-size: 20px;
+    }
+    .Directors .Directors-card p {
+        font-size: 16px;
+    }
+    .Directors .Directors-card .directors-card-icon {
+        bottom: -5%;
+    }
+    .Directors .Directors-card:hover .directors-card-icon{
+        left: 85%;
+        bottom: -110px;
+      }
+
+
+
+    /* footer  */
+    footer h5 {
+        font-size: 20px;
+    }
+
+    footer .logo p {
+        font-size: 14px;
+    }
+
+    footer .list-unstyled li {
+        font-size: 14px;
+    }
+
+    footer .Contact a {
+        font-size: 14px;
+    }
+
+
+    /* End  */
+    .End p {
+        font-size: 12px;
+    }
+}
+
+@media (min-width : 540px) {}
+
+@media (min-width : 575px) {
+
+
+    /* team-theme  */
+    .team-theme {
+        height: 400px;
+    }
+}
+
+@media (min-width : 768px) {
+
+    section {
+        margin-top: 25px;
+    }
+
+    /* navabr  */
+    .navbar ul li a.active::before {
+        left: 3%;
+    }
+
+    /* About banner  */
+    .About-banner .circle1 {
+        width: 340px;
+        height: 340px;
+        top: -140px;
+        left: 0;
+        transform: translateX(0%);
+
+    }
+
+    .business-woman {
+        right: 15px;
+        bottom: -245px;
+        width: 267px;
+    }
+
+    .About-banner .About-banner-text h1 {
+        font-size: 18px;
+    }
+
+    .About-banner .About-banner-text p {
+        font-size: 12px;
+    }
+
+    .About-banner .About-banner-text button {
+        font-size: 14px;
+    }
+
+    /* team-theme  */
+    .team-theme h3 {
+        font-size: 27px;
+    }
+
+    .team-theme p {
+        font-size: 17px;
+    }
+
+
+    /* Corporate  */
+    .Corporate .services-img {
+        height: 430px;
+    }
+
+    .Corporate .right-circle {
+        width: 350px;
+        height: 350px;
+        top: 3%;
+        right: -10%;
+    }
+
+
+    /* Provided-Services-type  */
+    .Provided-Services-type h5 {
+        font-size: 22px;
+    }
+
+    .represent-services {
+        width: 350px;
+        height: 340px;
+    }
+
+    .Provided-Services-type .left-circle {
+        width: 250px;
+        height: 250px;
+        left: -15%;
+        top: 20%;
+    }
+
+    .Provided-Services-type .Service-part-1 {
+        border-right: 1px solid black;
+    }
+
+    /* Strengths  */
+    .Strengths {
+        top: -25px;
+    }
+
+    .Strengths .technology-trends {
+        width: 380px;
+        height: 380px;
+    }
+
+    .Strengths .right-circle {
+        width: 250px;
+        height: 250px;
+        right: -10%;
+    }
+
+
+    /* Business */
+    .Business .Philosophy {
+        width: 330px;
+        height: 330px;
+    }
+
+    .Business .left-circle {
+        width: 250px;
+        height: 250px;
+        left: -15%;
+        bottom: -7%;
+    }
+
+    /* framework */
+    .framework-star {
+        width: 22px;
+    }
+
+     /* Directors  */
+     .Directors .Directors-card h6 {
+        font-size: 18px;
+    }
+    .Directors .Directors-card p {
+        font-size: 14px;
+    }
+    .Directors .Directors-card .directors-card-icon {
+        bottom: -8%;
+    }
+    .Directors .Directors-card:hover .directors-card-icon{
+        left: 80%;
+        bottom: -105px;
+      }
+
+
+    /* footer  */
+    .footer-logo img {
+        width: 30%;
+    }
+    .footer-right {
+        bottom: -8%;
+    }
+
+
+}
+
+@media (min-width : 820px) {
+
+    /* Corporate  */
+    .Corporate .right-circle {
+        right: -7%;
+    }
+
+    /* Provided-Services-type */
+    .Provided-Services-type .left-circle {
+        left: -12%;
+    }
+
+
+
+    /* footer  */
+    .footer-left {
+        left: 0%;
+        top: 0%;
+    }
+
+    .footer-right {
+        right: 0%;
+        bottom: 6%;
+        width: 164px;
+        height: 150px;
+    }
+}
+
+@media (min-width : 853px) {
+
+    /* Corporate  */
+    .Corporate .services-img {
+        height: 440px;
+    }
+
+    /* Provided-Services-type */
+    .Provided-Services-type .left-circle {
+        left: -9%;
+        ;
+    }
+}
+
+@media (min-width : 912px) {
+
+    /* navbar  */
+    .navbar {
+        margin: 0 25px;
+    }
+
+    /* About-banner */
+    .About-banner .circle1 {
+        top: -110px;
+        left: -50px;
+    }
+
+    .About-banner .circle2 {
+        right: -50px;
+    }
+
+    .business-woman {
+        right: -20px;
+    }
+
+    /* Corporate  */
+    .Corporate .services-img {
+        height: 440px;
+        width: 800px;
+    }
+
+    .Corporate .right-circle {
+        width: 350px;
+        height: 350px;
+        right: -4%;
+    }
+
+    /* Provided-Services-type */
+    .Provided-Services-type .left-circle {
+        width: 280px;
+        height: 280px;
+        left: -10%;
+    }
+
+    .represent-services {
+        height: 450px;
+    }
+
+    /* Strengths  */
+    .Strengths .technology-trends {
+        width: 400px;
+        height: 400px;
+    }
+
+    .Strengths .right-circle {
+        width: 270px;
+        height: 270px;
+        right: -7%;
+    }
+
+    /* Business  */
+    .Business .Philosophy {
+        width: 350px;
+        height: 350px;
+    }
+
+    .Business .left-circle {
+        left: -7%;
+    }
+
+
+    /* footer  */
+    .footer-left img {
+        width: 80%;
+    }
+}
+
+
+
+@media (min-width : 992px) {
+
+    section {
+        margin-top: 40px;
+    }
+
+    .sub-Headings {
+        font-size: 30px;
+    }
+
+    .sub-title {
+        font-size: 18px;
+    }
+
+    /* navbar  */
+    header {
+        padding: 6px;
+    }
+
+    .navbar {
+        border-radius: 30px;
+    }
+
+    .navbar button {
+        font-size: 15px;
+        height: 34px;
+    }
+
+    .navbar img {
+        width: 35px;
+    }
+
+    .navbar ul li a.active::before {
+        left: 50%;
+        transform: translate(-50% , 0);
+        bottom: 2px;
+    }
+
+
+    /* About-banner  */
+    .About-banner .circle1 {
+        width: 330px;
+        height: 330px;
+        top: -110px;
+        left: 50px;
+    }
+
+    .About-banner .About-banner-text h1 {
+        font-size: 18px;
+    }
+
+    .About-banner .About-banner-text p {
+        font-size: 12px;
+    }
+
+    .About-banner .About-banner-text {
+        padding: 50px;
+    }
+
+    .About-banner .About-banner-text button {
+        font-size: 14px;
+    }
+
+    .About-banner .circle2 {
+        width: 330px;
+        height: 330px;
+        right: 50px;
+        top: -90px;
+    }
+
+    .business-woman {
+        right: 80px;
+        bottom: -247px;
+        width: 275px;
+    }
+
+    /* team-theme  */
+    .team-theme {
+        height: 350px;
+    }
+
+    .team-theme h4 {
+        font-size: 25px;
+    }
+
+    .team-theme p {
+        font-size: 18px;
+    }
+
+    .team-single-img {
+        width: 130px;
+        height: 130px;
+    }
+
+
+    /* team-theme  */
+    .team-theme h4 {
+        font-size: 30px;
+    }
+
+    .team-theme p {
+        font-size: 18px;
+    }
+
+
+    /* corporate  */
+    .Corporate {
+        margin-top: 40px;
+    }
+
+    .Corporate .services-img {
+        height: 400px;
+        width: 400px;
+    }
+
+    .Corporate .right-circle {
+        width: 320px;
+        height: 320px;
+        right: -7%;
+        top: 11%;
+    }
+
+    /* Provided-Services-type */
+    .Provided-Services-type .represent-services img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .represent-services {
+        width: 420px;
+        height: 420px;
+    }
+
+    .Provided-Services-type .left-circle {
+        left: -14%;
+        top: 19%;
+    }
+
+    /* Strengths  */
+    .Strengths {
+        top: -28px;
+    }
+
+    .Strengths .technology-trends {
+        width: 400px;
+        height: 400px;
+    }
+
+    .Strengths .right-circle {
+        width: 300px;
+        height: 300px;
+        right: -8%;
+        top: 0%;
+    }
+
+
+    /* Business */
+    .Business .Philosophy {
+        width: 350px;
+        height: 350px;
+    }
+
+    .Business .left-circle {
+        width: 260px;
+        height: 260px;
+        left: -14%;
+        bottom: -10%;
+    }
+
+    /* Methodology  */
+    .Methodology .Methodology-framework {
+        width: 300px;
+        height: 300px;
+    }
+
+    /* framework */
+    .framework .framework-card h6 {
+        font-size: 19px;
+    }
+
+
+
+    /* footer  */
+    footer {
+        font-size: 15px;
+    }
+
+    footer h5 {
+        font-size: 18px;
+    }
+
+    footer .logo a {
+        width: 35px;
+    }
+
+    .footer-logo img {
+        width: 65%;
+    }
+
+    .footer-left {
+        left: 0%;
+        top: 0%;
+    }
+
+    .footer-right {
+        right: 0;
+        bottom: 10%;
+        width: 164px;
+        height: 150px;
+    }
+
+    /* End  */
+    .End p {
+        font-size: 15px;
+    }
+
+}
+
+
+
+@media (min-width : 1024px) {
+
+    /* Provided-Services-type */
+    .Provided-Services-type .left-circle {
+        left: -18%;
+        top: 19%;
+    }
+
+    /* Business  */
+    .Business .left-circle {
+        left: -12%;
+    }
+
+    /* Directors  */
+    .directors-card-icon {
+        left: 75%;
+    }
+
+}
+
+
+@media (min-width : 1280px) {
+
+    section {
+        margin-top: 40px;
+    }
+
+    .sub-Headings {
+        font-size: 30px;
+    }
+
+    .sub-title {
+        font-size: 18px;
+    }
+
+    /* navbar  */
+    header {
+        padding: 6px;
+    }
+
+    .navbar {
+        margin: 0 40px;
+    }
+
+    .navbar button {
+        font-size: 15px;
+        height: 34px;
+    }
+
+    .navbar img {
+        width: 35px;
+    }
+
+
+    /* About-banner  */
+    .About-banner .About-banner-text h1 {
+        font-size: 23px;
+    }
+
+    .About-banner .About-banner-text p {
+        font-size: 13px;
+    }
+
+    .About-banner .About-banner-text {
+        padding: 70px 50px 50px;
+    }
+    .About-banner .About-banner-text button {
+        padding: 8px 20px;
+    }
+    .About-banner .circle1 {
+        width: 380px;
+        height: 380px;
+        left: 50px;
+        top: -120px;
+        transform: translateX(0%);
+    }
+
+    .About-banner .circle2 {
+        width: 350px;
+        height: 350px;
+    }
+
+    .business-woman {
+        bottom: -290px;
+        width: 310px;
+    }
+
+
+    /* team-theme  */
+    .team-theme {
+        height: 350px;
+    }
+
+    /* Corporate   */
+    .Corporate .services-img {
+        width: 560px;
+        height: 368px;
+    }
+
+    .Corporate .right-circle {
+        width: 320px;
+        height: 320px;
+        right: -3%;
+        top: 5%;
+    }
+
+    /* Provided-Services-type */
+
+    .Provided-Services-type .represent-services img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .represent-services {
+        width: 460px;
+        height: 460px;
+    }
+
+    .Provided-Services-type .left-circle {
+        width: 260px;
+        height: 260px;
+        left: -5%;
+        top: 15%;
+    }
+
+    /* Strengths  */
+    .Strengths {
+        top: -28px;
+    }
+
+    .Strengths .technology-trends {
+        width: 440px;
+        height: 440px;
+    }
+
+    .Strengths .right-circle {
+        width: 350px;
+        height: 350px;
+        right: -8%;
+        top: 0%;
+    }
+
+
+    /* Business */
+    .Business .Philosophy {
+        width: 380px;
+        height: 380px;
+    }
+
+    .Business .left-circle {
+        width: 260px;
+        height: 260px;
+        left: -7%;
+        bottom: -10%;
+    }
+
+    /* Methodology  */
+    .Methodology .Methodology-framework {
+        width: 300px;
+        height: 350px;
+    }
+
+    /* framework  */
+    .framework-card {
+        width: 100%;
+        height: auto;
+    }
+
+    .framework .framework-card h6 {
+        font-size: 25px;
+    }
+
+    .framework .framework-card p {
+        font-size: 16px;
+    }
+    .framework .Question-mark{
+        width: 30px;
+    }
+    .framework .custom-shape {
+        width: 80px;
+        height: 80px;
+    }
+    .framework-star {
+        width: 22px;
+    }
+
+    /* Directors */
+  .Directors .Directors-card{
+    width: 100%;
+    margin-bottom: 125px;
+  }
+  .Directors .Directors-card::before{
+    width: 100%;
+    height: 100px;
+    top: 100%;
+  }
+  .Directors .Directors-card .directors-card-icon{
+    width: 70px;
+    height: 70px;
+    bottom: -10%;
+    left: 5%;
+  }
+  .directors-card-icon i{
+    font-size: 30px;
+  }
+  .Directors .Directors-card:hover .directors-card-icon{
+    left: 75%;
+    bottom: -120px;
+  }
+  .Directors .Directors-card h6{
+    font-size: 20px;
+  }
+  .Directors .Directors-card p{
+    font-size: 16px;
+  }
+
+
+
+    /* footer  */
+    footer .logo p {
+        font-size: 17px;
+    }
+
+    footer h5 {
+        font-size: 22px;
+    }
+
+    footer .list-unstyled li {
+        font-size: 17px;
+    }
+
+    footer .Contact a {
+        font-size: 17px;
+    }
+
+}
+
+@media (min-width : 1440px) {
+
+    /* About-banner  */
+    .About-banner .About-banner-text {
+        padding: 60px 20px 20px;
+    }
+
+    .About-banner .About-banner-text h1 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .About-banner .About-banner-text p,
+    .About-banner .About-banner-text button {
+        font-size: 18px;
+    }
+
+    .About-banner .circle1 {
+        top: -100px;
+        width: 500px;
+        height: 500px;
+    }
+
+    .About-banner .circle2 {
+        width: 450px;
+        height: 450px;
+        top: -100px;
+    }
+
+    .business-woman {
+        right: 49px;
+        bottom: -445px;
+        width: 440px;
+    }
+
+    /* Corporate  */
+    .Corporate .services-img {
+        height: 400px;
+    }
+
+    .Corporate .right-circle {
+        width: 350px;
+        height: 350px;
+    }
+
+    /* Provided-Services-type */
+    .Provided-Services-type .left-circle {
+        width: 300px;
+        height: 300px;
+        left: -8%;
+        top: 15%;
+    }
+
+    /* Methodology  */
+    .Methodology .Methodology-framework {
+        width: 360px;
+        height: 420px;
+    }
+
+    /* framework */
+    .framework-star {
+        width: 28px;
+    }    
+
+
+    /* End */
+    .End p {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (min-width : 1600px) {
+
+    .sub-Headings {
+        font-size: 34px;
+    }
+
+    .sub-title {
+        font-size: 22px;
+    }
+
+    /* navbar  */
+    .navbar img {
+        width: 60px;
+    }
+
+    .navbar a {
+        font-size: 25px;
+        margin-inline: 12px;
+    }
+
+    .navbar button {
+        font-size: 22px;
+        height: 55px;
+    }
+
+    .navbar {
+        border-radius: 40px;
+    }
+
+    header {
+        padding: 12px;
+    }
+
+    /* About-banner  */
+    .About-banner .About-banner-text h1 {
+        font-size: 30px;
+    }
+
+    .About-banner .About-banner-text p,
+    .About-banner .About-banner-text button {
+        font-size: 18px;
+    }
+
+    .About-banner .circle1 {
+        top: -170px;
+        width: 500px;
+        height: 500px;
+        left: -40px;
+    }
+
+    .About-banner .circle2 {
+        width: 550px;
+        height: 550px;
+        top: -130px;
+        right: 0;
+    }
+
+    .business-woman {
+        right: 50px;
+        bottom: -445px;
+        width: 450px;
+    }
+
+    /* key-section  */
+    .key-section h3 {
+        font-size: 34px;
+    }
+
+    .key-section p {
+        font-size: 20px;
+    }
+
+    /* team-theme  */
+    .team-theme h3 {
+        font-size: 34px;
+    }
+
+    .team-theme p {
+        font-size: 23px;
+    }
+
+    /* Corporate  */
+    .Corporate h3 {
+        font-size: 34px;
+    }
+
+    .Corporate p {
+        font-size: 20px;
+    }
+
+    .Corporate .services-img {
+        height: 440px;
+        width: 750px;
+    }
+
+    .Corporate .right-circle {
+        width: 400px;
+        height: 400px;
+        right: -5%;
+    }
+
+    /* Provided-Services-type */
+    .represent-services {
+        width: 500px;
+        height: 500px;
+    }
+
+    .Provided-Services-type .left-circle {
+        width: 350px;
+        height: 350px;
+        left: -5%;
+        top: 13%;
+    }
+
+    /* Strengths  */
+    .Strengths .technology-trends {
+        width: 460px;
+        height: 460px;
+    }
+
+    .Strengths .right-circle {
+        width: 370px;
+        height: 370px;
+        right: -5%;
+    }
+
+    /* Business  */
+    .Business .Philosophy {
+        width: 400px;
+        height: 400px;
+    }
+
+    .Business .left-circle {
+        width: 300px;
+        height: 300px;
+        left: -5%;
+    }
+
+
+    /* footer  */
+    .footer-left img {
+        width: 105%;
+    }
+
+    .footer-right img {
+        width: 170%;
+    }
+
+    .footer-right {
+        right: 6%;
+        bottom: 35%;
+        width: 125px;
+        height: 100px;
+    }
+}
+
+
+@media (min-width : 1680px) {
+
+    /* About-banner  */
+    .About-banner .About-banner-text h1 {
+        font-size: 38px;
+    }
+
+    .About-banner .About-banner-text p,
+    .About-banner .About-banner-text button {
+        font-size: 20px;
+    }
+
+    .About-banner .About-banner-text {
+        padding: 50px;
+    }
+
+    .About-banner .circle1 {
+        top: -170px;
+        width: 600px;
+        height: 600px;
+        left: -40px;
+    }
+
+    .About-banner .circle2 {
+        width: 600px;
+        height: 600px;
+        top: -100px;
+        right: -30px;
+    }
+
+    .business-woman {
+        right: 30px;
+        bottom: -530px;
+        width: 500px;
+    }
+
+    /* Corporate  */
+    .Corporate .services-img {
+        width: 700px;
+    }
+
+    /* Provided-Services-type  */
+    .Provided-Services-type .left-circle {
+        left: -3%;
+    }
+
+    /* Business */
+    .Business .Philosophy {
+        width: 440px;
+        height: 440px;
+    }
+
+    .Business .left-circle {
+        width: 340px;
+        height: 340px;
+        left: -5%;
+    }
+
+
+
+    /* footer  */
+    .footer-left img {
+        width: 130%;
+    }
+
+    .footer-right {
+        right: 6%;
+        bottom: 28%;
+        width: 150px;
+        height: 172px;
+    }
+
+    footer h5 {
+        font-size: 30px;
+    }
+
+    footer .list-unstyled li {
+        font-size: 20px;
+    }
+
+    footer .Contact a {
+        font-size: 20px;
+    }
+
+    footer .logo p {
+        font-size: 20px;
+    }
+
+    .footer-logo img {
+        width: 75%;
+    }
+
+    footer .logo a {
+        width: 55px;
+    }
+
+    footer .logo a i {
+        font-size: 35px;
+    }
+
+}
+
+@media (min-width : 1920px) {
+
+    .sub-Headings {
+        font-size: 40px;
+    }
+
+    .sub-title {
+        font-size: 26px;
+    }
+
+    /* navbar  */
+    .navbar {
+        border-radius: 50px;
+    }
+
+    /* About-banner  */
+    .About-banner .circle1 {
+        left: -80px;
+    }
+
+    .business-woman {
+        right: 0;
+        bottom: -550px;
+    }
+
+    /* Corporate  */
+    .Corporate .services-img {
+        height: 500px;
+        width: 800px;
+    }
+
+    .Corporate .right-circle {
+        width: 480px;
+        height: 480px;
+        right: -3%;
+        top: 2%;
+    }
+
+    /* Provided-Services-type */
+    .Provided-Services-type h5 {
+        font-size: 28px;
+    }
+
+    .represent-services {
+        width: 500px;
+        height: 550px;
+    }
+
+    .Provided-Services-type .left-circle {
+        width: 410px;
+        height: 410px;
+        left: -1%;
+        top: 10%;
+    }
+
+    /* Strength  */
+    .Strengths .technology-trends {
+        width: 600px;
+        height: 600px;
+    }
+
+    /* Busines */
+    .Business .Philosophy {
+        width: 500px;
+        height: 500px;
+    }
+
+    /* framework */
+    .framework .framework-card p {
+        font-size: 18px;
+    }
+    .framework .framework-card h6 {
+        font-size: 26px;
+    }
+
+    /* Directors  */
+    .Directors .Directors-card h6 {
+        font-size: 22px;
+    }
+    .Directors .Directors-card p {
+        font-size: 18px;
+    }
+
+
+
+    /* footer  */
+    footer h5 {
+        font-size: 35px;
+    }
+
+    .footer-left img {
+        width: 100%;
+    }
+
+    .footer-right img {
+        width: 120%;
+    }
+
+    .footer-right {
+        right: 35px;
+        bottom: 10%;
+    }
+
+    /* End  */
+    .End p {
+        font-size: 25px;
+    }
+
+}
+
+@media (min-width : 2048px) {
+
+    /* navbar  */
+    .navbar img {
+        width: 70px;
+    }
+
+    .navbar button {
+        font-size: 25px;
+        height: 60px;
+    }
+
+    /* About-banner  */
+    .About-banner .circle1 {
+        left: -150px;
+    }
+
+    /* Corporate  */
+    .Corporate .services-img {
+        height: 500px;
+        width: 900px;
+    }
+
+    /* Provided-Services-type  */
+    .represent-services {
+        width: 580px;
+        height: 630px;
+    }
+
+    .Provided-Services-type .left-circle {
+        width: 450px;
+        height: 450px;
+    }
+
+}

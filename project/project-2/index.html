@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>PropVest</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <!-- fav icon -->
+    <link rel="shortcut icon" href="./images/logo.svg" type="image/x-icon">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- manrope fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- font-awesome css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+        integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"
+        integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- slick css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- jquery js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- slick js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <!-- style css -->
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/style.css'>
+
+    <!-- media css -->
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/media.css'>
+</head>
+
+<body>
+
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light-tertiary">
+            <div class="container-fluid">
+                <img src="./images/propvest-logo.svg" alt="">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="background-image: none !important;">
+                        &#9776;
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-lg-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-lg-5">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="/">Co-Framework</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Programs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Investment Insights</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                    <button class="me-lg-5">Book Consultation</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <section class="home-banner mx-auto">
+        <video autoplay muted loop class="home-banner-video d-none d-lg-block">
+            <source src="./images/home-banner-video.mp4" type="video/mp4">
+        </video>
+        <div class="home-banner-video d-block d-lg-none">
+            <img src="./images/home-banner-img.png" />
+        </div>
+
+        <div class="home-banner-content h-100 d-flex flex-column justify-content-center align-items-center">
+            <div class="home-banner-title">
+                <h1>
+                    Property Investment. Simplified.
+                </h1>
+            </div>
+            <div class="home-banner-button mt-4">
+                <button>
+                    Let’s Plan Your Next Investment Move
+                </button>
+            </div>
+
+            <div class="home-banner-down-icon mt-5">
+                <a href="javascript:void(0);" id="scroll-down">
+                    <img src="./images/home-banner-icon.svg" alt="">
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="home-banner-content text-center mt-2 mt-md-3 mt-lg-4">
+        <div class="container">
+            <p> There are over <span>2.3 million</span> property investors in Australia - yet more than
+                <span>90%</span>own
+                just <span>1 or 2 investment
+                    properties</span>. <span>PropVest</span> helps you break that cycle and scale your portfolio with
+                confidence.
+            </p>
+        </div>
+    </section>
+
+    <section class="propvest-plan position-relative">
+        <div class="container">
+            <div class="home-paln-title home-section-title mb-3 mb-lg-4">
+                <h2>The PropVest <span>Difference
+                        <div class="home-section-title-bg">
+                            <img src="./images/home-section-title-bg.svg" alt="">
+                        </div>
+                    </span></h2>
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-6">
+                    <div class="plan-title mb-lg-0">
+                        <div class="home-plan-sub-title home-section-sub-title">
+                            <p>
+                                "A structured, expert-led approach to property
+                                investment—helping you make
+                                smarter decisions with confidence."
+                            </p>
+                        </div>
+
+                        <div class="plan-img position-relative">
+                            <div class="plan-img1">
+                                <img src="images/propvest-plan-img1.svg" alt="">
+                            </div>
+                            <div class="plan-img2 position-absolute">
+                                <img src="images/propvest-plan-img2.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="set-plan ms-0 mt-5 mt-lg-0 ms-lg-5">
+                        <ul class="font-color mb-4 mb-lg-5">
+                            <li class="mb-3 mt-4">Many investors struggle with complex decisions, market uncertainty,
+                                and
+                                scattered
+                                advice. The biggest mistake? Delaying decisions—waiting too long and missing great
+                                opportunities.</li>
+                            <li class="mb-3">Traditional investment approaches often leave people with too much
+                                information but no
+                                clear plan. Many find themselves stuck—unsure how to move forward, reacting to market
+                                noise, or relying on fragmented guidance without a unified strategy.</li>
+                            <li class="mb-3">That’s where PropVest is different. Instead of leaving you to figure it out
+                                alone, we
+                                provide a structured, guided, and results-driven approach so you can:</li>
+                        </ul>
+
+                        <div>
+                            <div class="d-flex align-items-start me-0 mb-2 me-lg-5  mb-lg-4">
+                                <div class="plan-icon">
+                                    <img src="images/Unified Plan.svg" alt="">
+                                </div>
+                                <div class="ms-3 ms-lg-4">
+                                    <h5 class="text-color">Have a Unified Plan</h5>
+                                    <p class="font-color">A clear roadmap so you know what, where, when, and how to
+                                        invest.</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex align-items-start mb-2 mb-lg-4">
+                                <div class="plan-icon">
+                                    <img src="images/Strategic Steps.svg" alt="">
+                                </div>
+                                <div class="ms-3 ms-lg-4">
+                                    <h5 class="text-color">Take Smart, Strategic Steps</h5>
+                                    <p class="font-color">A simplified process that ensures you invest in the right
+                                        properties at the right time.</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex align-items-start mb-2 mb-lg-4">
+                                <div class="plan-icon">
+                                    <img src="images/Grow.svg" alt="">
+                                </div>
+                                <div class="ms-3 ms-lg-4">
+                                    <h5 class="text-color">Grow & Scale Your Investments</h5>
+                                    <p class="font-color">A smart, step-by-step strategy that helps you expand your
+                                        portfolio over time.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="community py-4 m-2 mt-4 py-lg-5">
+        <div class="container">
+
+
+            <div class="home-community-title home-section-title">
+                <h2 class="text-light">The PropVest <span>Community
+                        <div class="home-section-title-bg">
+                            <img src="./images/home-section-title-bg.svg" alt="">
+                        </div>
+                    </span></h2>
+            </div>
+            <div class="home-community-sub-title home-section-sub-title mb-3 mb-lg-5">
+                <p class="text-light">
+                    Wherever you are in your property journey—we simplify your path to property success in Australia.
+                </p>
+            </div>
+
+
+            <div class="community-slider">
+                <div class="community-card mb-3 mb-lg-0">
+                    <div>
+                        <div class="community-card-img mb-2 mb-lg-3">
+                            <img src="images/community-card-img1.svg" alt="">
+                        </div>
+                        <h5 class="card-title mb-2 mb-lg-4">Young Professional </h5>
+                    </div>
+                    <div class="community-card-body">
+                        <p class="card-text">I’m earning well but not sure how to start investing in property. Where
+                            do I begin?</p>
+                    </div>
+                </div>
+
+                <div class="community-card mb-3 mb-lg-0">
+                    <div>
+                        <div class="community-card-img mb-2 mb-lg-3">
+                            <img src="images/community-card-img2.svg" alt="">
+                        </div>
+                        <h5 class="card-title mb-2 mb-lg-4">First Home Buyer</h5>
+                    </div>
+                    <div class="community-card-body">
+                        <p class="card-text">I want to buy my first home but don’t know the process or what
+                            incentives are available.</p>
+                    </div>
+                </div>
+
+                <div class="community-card mb-3 mb-lg-0">
+                    <div>
+                        <div class="community-card-img mb-2 mb-lg-3">
+                            <img src="images/community-card-img3.svg" alt="">
+                        </div>
+                        <h5 class="card-title mb-2 mb-lg-4">Families</h5>
+                    </div>
+                    <div class="community-card-body">
+                        <p class="card-text">We want to invest in property to secure our family's future, but we
+                            don’t know the best strategy..</p>
+                    </div>
+                </div>
+
+                <div class="community-card mb-3 mb-lg-0">
+                    <div>
+                        <div class="community-card-img mb-2 mb-lg-3">
+                            <img src="images/community-card-img4.svg" alt="">
+                        </div>
+                        <h5 class="card-title mb-2 mb-lg-4">Migrant Investor</h5>
+                    </div>
+                    <div class="community-card-body">
+                        <p class="card-text">I’m new to Australia and want to buy property, but I’m not sure about
+                            the process and pathways..</p>
+                    </div>
+                </div>
+
+                <div class="community-card mb-3 mb-lg-0">
+                    <div>
+                        <div class="community-card-img mb-2 mb-lg-3">
+                            <img src="images/community-card-img5.svg" alt="">
+                        </div>
+                        <h5 class="card-title mb-2 mb-lg-4">Pre-Retirement Investor</h5>
+                    </div>
+                    <div class="community-card-body">
+                        <p class="card-text">I need to build passive income before retirement. Is property a good
+                            option for me?</p>
+                    </div>
+                </div>
+                <div class="community-card mb-3 mb-lg-0">
+                    <div>
+                        <div class="community-card-img mb-2 mb-lg-3">
+                            <img src="images/community-card-img6.svg" alt="">
+                        </div>
+                        <h5 class="card-title mb-2 mb-lg-4">Business Owner</h5>
+                    </div>
+                    <div class="community-card-body">
+                        <p class="card-text">I want to invest in property but don’t have time to research and manage
+                            everything.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section class="home-co-partnered position-relative">
+
+        <div class="container">
+
+            <div class="home-co-partnered-title home-section-title text-center">
+                <h2>The PropVest <span>Co-Partnered
+                        <div class="home-section-title-bg">
+                            <img src="./images/home-section-title-bg.svg" alt="">
+                        </div>
+                    </span> Approach</h2>
+            </div>
+
+            <div class="home-co-partnered-sub-title home-section-sub-title d-flex justify-content-center text-center">
+                <p class="w-50">
+                    A structured, co-partnered approach guiding you through a continuous cycle of property investment
+                    success.
+                </p>
+            </div>
+
+            <div class="home-co-partnered-content">
+
+
+                <div class="home-co-partnered-img position-relative d-flex justify-content-center mt-5">
+
+
+                    <img src="./images/home-co-partnered-img.svg" alt="" class="home-co-partnered-img-img">
+
+
+
+                    <div class="home-co-partnered-logo position-absolute top-50">
+                        <img src="./images/home-co-partnered-logo.svg" class="img-fluid" alt="">
+                    </div>
+
+
+                    <div class="home-co-partnered-top-img position-absolute">
+                        <img src="./images/home-co-partnered-top-img.svg" alt="">
+                    </div>
+
+                    <div class="home-co-partnered-left-img position-absolute">
+                        <img src="./images/home-co-partnered-left-img.svg" alt="">
+                    </div>
+
+                    <div class="home-co-partnered-right-img position-absolute">
+                        <img src="./images/home-co-partnered-right-img.svg" alt="">
+                    </div>
+
+
+                    <div class="home-co-partnered-sm-title-content d-block d-xxl-none">
+                        <h4 class="single-co-partnered-content-title-top position-absolute">Co-Envision</h4>
+                        <h4 class="single-co-partnered-content-title-left position-absolute">Co-Accelerate</h4>
+                        <h4 class="single-co-partnered-content-title-right position-absolute">Co-Execute</h4>
+                    </div>
+
+                    <div class="home-co-partnered-xxl-content d-none d-xxl-block">
+
+                        <div class="single-co-partnered-content position-absolute single-co-partnered-top-content">
+                            <div class="">
+                                <h4 class="single-co-partnered-content-title">
+                                    Co-Envision
+                                </h4>
+                                <p class="single-co-partnered-content-text">
+                                    We co-create your property investment roadmap, built around your aspirations and
+                                    financial reality.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="single-co-partnered-content position-absolute single-co-partnered-left-content">
+                            <div class="text-end">
+                                <h4 class="single-co-partnered-content-title">
+                                    Co-Accelerate
+                                </h4>
+                                <p class="single-co-partnered-content-text">
+                                    Investment success is about scaling wisely, adapting to market changes, and
+                                    reinvesting with confidence.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="single-co-partnered-content position-absolute single-co-partnered-right-content">
+                            <div class="">
+                                <h4 class="single-co-partnered-content-title">
+                                    Co-Execute
+                                </h4>
+                                <p class="single-co-partnered-content-text">
+                                    With expert insights and hands-on support, we ensure every move is strategic and
+                                    seamless.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="home-co-partnered-sm-content mt-5 d-block d-xxl-none">
+
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="single-co-partnered-content
+                        d-flex d-md-block mb-2">
+                            <div class="d-flex justify-content-center">
+                                <div class="single-co-partnered-content-icon">
+                                    <img src="./images/home-co-partnered-top-img.svg" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                            <div class="ms-3 ms-md-0
+                            mt-0 mt-md-3">
+
+                                <h4 class="single-co-partnered-content-title text-md-center">Co-Envision</h4>
+                                <p class="single-co-partnered-content-text text-md-center">We co-create your property
+                                    investment roadmap, built around your aspirations and financial reality.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="single-co-partnered-content
+                        d-flex d-md-block mb-2">
+                            <div class="d-flex justify-content-center">
+                                <div class="single-co-partnered-content-icon">
+                                    <img src="./images/home-co-partnered-left-img.svg" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                            <div class="ms-3 ms-md-0
+                            mt-0 mt-md-3">
+
+                                <h4 class="single-co-partnered-content-title text-md-center">Co-Accelerate</h4>
+                                <p class="single-co-partnered-content-text text-md-center">Investment success is about
+                                    scaling wisely, adapting to market changes, and reinvesting with confidence.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="single-co-partnered-content
+                        d-flex d-md-block mb-2">
+                            <div class="d-flex justify-content-center">
+                                <div class="single-co-partnered-content-icon">
+                                    <img src="./images/home-co-partnered-right-img.svg" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                            <div class="ms-3 ms-md-0
+                            mt-0 mt-md-3">
+
+                                <h4 class="single-co-partnered-content-title text-md-center">Co-Execute</h4>
+                                <p class="single-co-partnered-content-text text-md-center">With expert insights and
+                                    hands-on support, we ensure every move is strategic and seamless.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="home-theme-btn text-center mt-lg-5">
+                <button>Explore More</button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="insights">
+        <div class="container">
+
+            <div class="d-flex flex-column justify-content-center align-items-center mb-2">
+
+                <div class="home-insights-title home-section-title text-center">
+                    <h2>The PropVest <span>Insights
+                            <div class="home-section-title-bg">
+                                <img src="./images/home-section-title-bg.svg" alt="">
+                            </div>
+                        </span></h2>
+                </div>
+
+                <div
+                    class="home-co-partnered-sub-title home-section-sub-title d-flex justify-content-center text-center">
+                    <p>
+                        Smart insights to help you make informed investment decisions.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="insights-slider">
+                <div class="insights-card p-3 mb-3 mb-lg-0">
+                    <div class="insights-card-img mb-4">
+                        <img src="./images/./insights-card-img1.svg" class="" alt="...">
+                    </div>
+                    <div class="insights-card-body">
+                        <h5 class="insights-card-title mb-3">Top Property Market Trends to Watch This Year</h5>
+                        <p class="insights-card-text">Stay ahead of the curve with in-depth insights into the latest
+                            trends, from market shifts to emerging neighborhoods, that can help you make informed
+                            decisions in today’s real estate landscape.</p>
+                    </div>
+                </div>
+
+                <div class="insights-card p-3 mb-3 mb-lg-0">
+                    <div class="insights-card-body">
+                        <h5 class="insights-card-title mb-3">Top Property Market Trends to Watch This Year</h5>
+                        <p class="insights-card-text mb-3">Stay ahead of the curve with in-depth insights into the
+                            latest trends, from market shifts to emerging neighborhoods, that can help you make
+                            informed decisions in today’s real estate landscape.</p>
+                    </div>
+                    <div class="insights-card-img mb-4">
+                        <img src="./images/./insights-card-img2.svg" class="" alt="...">
+                    </div>
+                </div>
+
+                <div class="insights-card p-3 mb-3 mb-lg-0">
+                    <div class="insights-card-img mb-4">
+                        <img src="./images/./insights-card-img3.svg" class="" alt="...">
+                    </div>
+                    <div class="insights-card-body">
+                        <h5 class="insights-card-title mb-3">Top Property Market Trends to Watch This Year</h5>
+                        <p class="insights-card-text">Stay ahead of the curve with in-depth insights into the latest
+                            trends, from market shifts to emerging neighborhoods, that can help you make informed
+                            decisions in today’s real estate landscape.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- <div class="row justify-content-center">
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="insights-card p-3 mb-3 mb-lg-0">
+                        <div class="insights-card-img mb-4">
+                            <img src="./images/./insights-card-img1.svg" class="" alt="...">
+                        </div>
+                        <div class="insights-card-body">
+                            <h5 class="insights-card-title mb-3">Top Property Market Trends to Watch This Year</h5>
+                            <p class="insights-card-text">Stay ahead of the curve with in-depth insights into the latest
+                                trends, from market shifts to emerging neighborhoods, that can help you make informed
+                                decisions in today’s real estate landscape.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="insights-card p-3 mb-3 mb-lg-0">
+                        <div class="insights-card-body">
+                            <h5 class="insights-card-title mb-3">Top Property Market Trends to Watch This Year</h5>
+                            <p class="insights-card-text mb-3">Stay ahead of the curve with in-depth insights into the
+                                latest trends, from market shifts to emerging neighborhoods, that can help you make
+                                informed decisions in today’s real estate landscape.</p>
+                        </div>
+                        <div class="insights-card-img mb-4">
+                            <img src="./images/./insights-card-img2.svg" class="" alt="...">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="insights-card p-3 mb-3 mb-lg-0">
+                        <div class="insights-card-img mb-4">
+                            <img src="./images/./insights-card-img3.svg" class="" alt="...">
+                        </div>
+                        <div class="insights-card-body">
+                            <h5 class="insights-card-title mb-3">Top Property Market Trends to Watch This Year</h5>
+                            <p class="insights-card-text">Stay ahead of the curve with in-depth insights into the latest
+                                trends, from market shifts to emerging neighborhoods, that can help you make informed
+                                decisions in today’s real estate landscape.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div> -->
+
+            <div class="home-theme-btn text-center mt-lg-5">
+                <button>Explore More</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="home-experience position-relative">
+
+        <div class="container">
+
+            <div class="home-experience-title home-section-title text-center">
+                <h2>The PropVest <span>Experience
+                        <div class="home-section-title-bg">
+                            <img src="./images/home-section-title-bg.svg" alt="">
+                        </div>
+                    </span></h2>
+            </div>
+
+            <div class="home-experience-sub-title home-section-sub-title d-flex justify-content-center text-center">
+                <p class="w-75">
+                    Hear from investors who’ve partnered with PropVest to build their property success.
+                </p>
+            </div>
+
+
+            <div class="home-experience-main-slider mt-4 mt-lg-5 position-relative">
+                <div class="home-experience-slider">
+
+                    <div class="home-single-experince">
+                        <div class="home-single-experince-title d-flex align-items-center justify-content-between">
+                            <div>
+                                <h2 class="home-single-experince-name">
+                                    Rahul S.
+                                </h2>
+                                <p class="home-single-experince-designation">
+                                    First-Time Investor
+                                </p>
+                            </div>
+                            <div>
+                                <div class="home-single-experince-quotation-mark">
+                                    <img src="./images/quotation-marks.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home-single-experince-text">
+                            <p>"I always wanted to invest in property but didn’t know where to start. PropVest gave me a
+                                clear strategy and the confidence to make my first investment with ease."</p>
+                        </div>
+                    </div>
+
+                    <div class="home-single-experince">
+                        <div class="home-single-experince-title d-flex align-items-center justify-content-between">
+                            <div>
+                                <h2 class="home-single-experince-name">
+                                    Emily T.
+                                </h2>
+                                <p class="home-single-experince-designation">
+                                    Busy Professional
+                                </p>
+                            </div>
+                            <div>
+                                <div class="home-single-experince-quotation-mark">
+                                    <img src="./images/quotation-marks.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home-single-experince-text">
+                            <p>With my hectic schedule, I didn’t have time to research and manage everything. PropVest
+                                handled the entire process seamlessly, making investing stress-free.</p>
+                        </div>
+                    </div>
+
+                    <div class="home-single-experince">
+                        <div class="home-single-experince-title d-flex align-items-center justify-content-between">
+                            <div>
+                                <h2 class="home-single-experince-name">
+                                    Jason L.
+                                </h2>
+                                <p class="home-single-experince-designation">
+                                    Experienced Investor
+                                </p>
+                            </div>
+                            <div>
+                                <div class="home-single-experince-quotation-mark">
+                                    <img src="./images/quotation-marks.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home-single-experince-text">
+                            <p>"I already had a few properties but needed a structured approach to scale my portfolio.
+                                The
+                                PropVest Co-Framework helped me reinvest strategically and grow my wealth."</p>
+                        </div>
+                    </div>
+
+                    <div class="home-single-experince">
+                        <div class="home-single-experince-title d-flex align-items-center justify-content-between">
+                            <div>
+                                <h2 class="home-single-experince-name">
+                                    Emily T.
+                                </h2>
+                                <p class="home-single-experince-designation">
+                                    Busy Professional
+                                </p>
+                            </div>
+                            <div>
+                                <div class="home-single-experince-quotation-mark">
+                                    <img src="./images/quotation-marks.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home-single-experince-text">
+                            <p>With my hectic schedule, I didn’t have time to research and manage everything. PropVest
+                                handled the entire process seamlessly, making investing stress-free.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="custom-prev-experience">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+                <button class="custom-next-experience">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <section class="investment mt-0">
+        <div class="container">
+
+            <div class="investment-box position-relative p-3 p-lg-4">
+                <div class="row justify-content-lg-center align-items-lg-center h-100">
+
+                    <div class="col-md-5">
+                        <div class="investment-img">
+                            <img src="./images/./investment-img.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-md-7">
+                        <div class="investment-text">
+                            <h2 class="mb-4">Start Your Investment Journey with PropVest</h2>
+                            <div class="home-theme-btn mt-lg-4">
+                                <button>Contact Us</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="pt-5 m-2">
+        <div class="px-2 d-flex justify-content-center">
+            <div class="row justify-content-center w-100">
+
+                <!-- footer-logo -->
+                <div class="col-12 col-lg-4">
+                    <div class="mt-4 mt-md-5 d-flex justify-content-center">
+                        <div>
+                            <div class="d-flex justify-content-center">
+                                <div class="footer-logo mb-3 mb-lg-5">
+                                    <img src="./images/./propvest-logo.svg" alt="">
+                                </div>
+                            </div>
+
+                            <p class="pt-lg-4 mb-lg-4">Property Investment. Simplified.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-8">
+                    <div class="row">
+                        <!-- Quick Links -->
+                        <div class="col-6 col-sm-4 col-lg-4">
+                            <div class="mt-3 mt-lg-5 d-flex justify-content-lg-center">
+                                <div>
+                                    <h5 class="mb-3">Quick Links</h5>
+                                    <ul class="list-unstyled">
+                                        <li class="mb-2"><a href="#" class="text-light">Home</a></li>
+                                        <li class="mb-2"><a href="#" class="text-light">Co-Framework</a></li>
+                                        <li class="mb-2"><a href="#" class="text-light">Programs</a></li>
+                                        <li class="mb-2"><a href="#" class="text-light">Investment Insights</a></li>
+                                        <li class="mb-4"><a href="#" class="text-light">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Contact -->
+                        <div class="col-6 col-sm-4 col-lg-4">
+                            <div class="contact mt-3 mt-lg-5 d-flex justify-content-lg-center">
+                                <div>
+                                    <h5 class="mb-3">Contact Info</h5>
+                                    <p>
+                                        <a href="tel:+919016956416" class="text-light d-flex align-items-center"><span>
+                                                +1 (406) 555-0120
+                                            </span></a>
+                                    </p>
+                                    <p>
+                                        <a href="mailto:drmtechnoventures@gmail.com"
+                                            class="text-light d-flex align-items-center"><span>contact@propvest.com</span></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- footer-icon  -->
+                        <div class="col-6 col-sm-4 col-lg-4">
+                            <div class="footer-icon mt-3 mb-4 mt-lg-5 mb-lg-0 d-flex justify-content-lg-center">
+                                <div>
+                                    <h5 class="mb-3">Find Us On</h5>
+
+                                    <a class="text-light me-2 me-md-4" href="#"><i
+                                            class="fa-brands fa-square-instagram"></i></a>
+                                    <a class="text-light me-2 me-md-4" href="#"><i
+                                            class="fa-brands fa-square-facebook"></i></a>
+                                    <a class="text-light me-2 me-md-4" href="#"><i
+                                            class="fa-brands fa-linkedin"></i></a>
+                                    <a class="text-light me-2 me-md-4" href="#"><i
+                                            class="fa-brands fa-square-whatsapp"></i></a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-end py-3">
+            <div class="row align-items-center w-100">
+                <div class="col-6 col-lg-4">
+                    <p class="mb-0 ps-3">Licence No. 123456789</p>
+                </div>
+
+                <div class="col-12 col-lg-4 order-3 order-lg-2">
+                    <p class="text-center mt-2 mt-lg-0 mb-0">© 2025 propvest. All rights reserved.</p>
+                </div>
+
+                <div class="col-6 col-lg-4 order-2 order-lg-3">
+                    <div class=" text-end">
+                        <a class="text-light me-sm-3 me-lg-4" href="">Terms & Condition</a>
+                        <a class="text-light" href="">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+<!-- main js -->
+<script type="text/javascript" src="./js/main.js"></script>
+
+</html>
